@@ -1,0 +1,5205 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<sbml xmlns="http://www.sbml.org/sbml/level2/version4" xmlns:celldesigner="http://www.sbml.org/2001/ns/celldesigner" level="2" version="4">
+<model metaid="vanHeerden1" id="vanHeerden1" name="vanHeerden1">
+<annotation>
+<celldesigner:extension>
+<celldesigner:modelVersion>4.0</celldesigner:modelVersion>
+<celldesigner:modelDisplay sizeX="649" sizeY="866"/>
+<celldesigner:listOfCompartmentAliases>
+<celldesigner:compartmentAlias id="ca0" compartment="compartment">
+<celldesigner:class>SQUARE</celldesigner:class>
+<celldesigner:bounds x="25.0" y="25.0" w="574.0" h="791.0"/>
+<celldesigner:namePoint x="274.5" y="779.5"/>
+<celldesigner:doubleLine thickness="12.0" outerWidth="2.0" innerWidth="1.0"/>
+<celldesigner:paint color="ffcccc00" scheme="Color"/>
+<celldesigner:info state="empty" angle="-1.5707963267948966"/>
+</celldesigner:compartmentAlias>
+</celldesigner:listOfCompartmentAliases>
+<celldesigner:listOfComplexSpeciesAliases/>
+<celldesigner:listOfSpeciesAliases>
+<celldesigner:speciesAlias id="sa0" species="ACE" compartmentAlias="ca0">
+<celldesigner:activity>inactive</celldesigner:activity>
+<celldesigner:bounds x="342.0" y="276.0" w="80.0" h="40.0"/>
+<celldesigner:font size="12"/>
+<celldesigner:view state="usual"/>
+<celldesigner:usualView>
+<celldesigner:innerPosition x="317.0" y="251.0"/>
+<celldesigner:boxSize width="80.0" height="40.0"/>
+<celldesigner:singleLine width="1.0"/>
+<celldesigner:paint color="ffccffcc" scheme="Color"/>
+</celldesigner:usualView>
+<celldesigner:briefView>
+<celldesigner:innerPosition x="0.0" y="0.0"/>
+<celldesigner:boxSize width="80.0" height="60.0"/>
+<celldesigner:singleLine width="0.0"/>
+<celldesigner:paint color="3fff0000" scheme="Color"/>
+</celldesigner:briefView>
+<celldesigner:info state="empty" angle="-1.5707963267948966"/>
+</celldesigner:speciesAlias>
+<celldesigner:speciesAlias id="sa1" species="ATP" compartmentAlias="ca0">
+<celldesigner:activity>inactive</celldesigner:activity>
+<celldesigner:bounds x="477.0" y="421.0" w="80.0" h="40.0"/>
+<celldesigner:font size="12"/>
+<celldesigner:view state="usual"/>
+<celldesigner:usualView>
+<celldesigner:innerPosition x="452.0" y="396.0"/>
+<celldesigner:boxSize width="80.0" height="40.0"/>
+<celldesigner:singleLine width="1.0"/>
+<celldesigner:paint color="ffccffcc" scheme="Color"/>
+</celldesigner:usualView>
+<celldesigner:briefView>
+<celldesigner:innerPosition x="0.0" y="0.0"/>
+<celldesigner:boxSize width="80.0" height="60.0"/>
+<celldesigner:singleLine width="0.0"/>
+<celldesigner:paint color="3fff0000" scheme="Color"/>
+</celldesigner:briefView>
+<celldesigner:info state="empty" angle="-1.5707963267948966"/>
+</celldesigner:speciesAlias>
+<celldesigner:speciesAlias id="sa2" species="BPG" compartmentAlias="ca0">
+<celldesigner:activity>inactive</celldesigner:activity>
+<celldesigner:bounds x="251.0" y="379.0" w="80.0" h="40.0"/>
+<celldesigner:font size="12"/>
+<celldesigner:view state="usual"/>
+<celldesigner:usualView>
+<celldesigner:innerPosition x="226.0" y="354.0"/>
+<celldesigner:boxSize width="80.0" height="40.0"/>
+<celldesigner:singleLine width="1.0"/>
+<celldesigner:paint color="ffccffcc" scheme="Color"/>
+</celldesigner:usualView>
+<celldesigner:briefView>
+<celldesigner:innerPosition x="0.0" y="0.0"/>
+<celldesigner:boxSize width="80.0" height="60.0"/>
+<celldesigner:singleLine width="0.0"/>
+<celldesigner:paint color="3fff0000" scheme="Color"/>
+</celldesigner:briefView>
+<celldesigner:info state="empty" angle="-1.5707963267948966"/>
+</celldesigner:speciesAlias>
+<celldesigner:speciesAlias id="sa3" species="CO2" compartmentAlias="ca0">
+<celldesigner:activity>inactive</celldesigner:activity>
+<celldesigner:bounds x="399.0" y="337.0" w="80.0" h="40.0"/>
+<celldesigner:font size="12"/>
+<celldesigner:view state="usual"/>
+<celldesigner:usualView>
+<celldesigner:innerPosition x="374.0" y="312.0"/>
+<celldesigner:boxSize width="80.0" height="40.0"/>
+<celldesigner:singleLine width="1.0"/>
+<celldesigner:paint color="ffccffcc" scheme="Color"/>
+</celldesigner:usualView>
+<celldesigner:briefView>
+<celldesigner:innerPosition x="0.0" y="0.0"/>
+<celldesigner:boxSize width="80.0" height="60.0"/>
+<celldesigner:singleLine width="0.0"/>
+<celldesigner:paint color="3fff0000" scheme="Color"/>
+</celldesigner:briefView>
+<celldesigner:info state="empty" angle="-1.5707963267948966"/>
+</celldesigner:speciesAlias>
+<celldesigner:speciesAlias id="sa4" species="ETOH" compartmentAlias="ca0">
+<celldesigner:activity>inactive</celldesigner:activity>
+<celldesigner:bounds x="275.0" y="67.0" w="80.0" h="40.0"/>
+<celldesigner:font size="12"/>
+<celldesigner:view state="usual"/>
+<celldesigner:usualView>
+<celldesigner:innerPosition x="250.0" y="42.0"/>
+<celldesigner:boxSize width="80.0" height="40.0"/>
+<celldesigner:singleLine width="1.0"/>
+<celldesigner:paint color="ffccffcc" scheme="Color"/>
+</celldesigner:usualView>
+<celldesigner:briefView>
+<celldesigner:innerPosition x="0.0" y="0.0"/>
+<celldesigner:boxSize width="80.0" height="60.0"/>
+<celldesigner:singleLine width="0.0"/>
+<celldesigner:paint color="3fff0000" scheme="Color"/>
+</celldesigner:briefView>
+<celldesigner:info state="empty" angle="-1.5707963267948966"/>
+</celldesigner:speciesAlias>
+<celldesigner:speciesAlias id="sa5" species="F16P" compartmentAlias="ca0">
+<celldesigner:activity>inactive</celldesigner:activity>
+<celldesigner:bounds x="258.0" y="501.0" w="80.0" h="40.0"/>
+<celldesigner:font size="12"/>
+<celldesigner:view state="usual"/>
+<celldesigner:usualView>
+<celldesigner:innerPosition x="233.0" y="476.0"/>
+<celldesigner:boxSize width="80.0" height="40.0"/>
+<celldesigner:singleLine width="1.0"/>
+<celldesigner:paint color="ffccffcc" scheme="Color"/>
+</celldesigner:usualView>
+<celldesigner:briefView>
+<celldesigner:innerPosition x="0.0" y="0.0"/>
+<celldesigner:boxSize width="80.0" height="60.0"/>
+<celldesigner:singleLine width="0.0"/>
+<celldesigner:paint color="3fff0000" scheme="Color"/>
+</celldesigner:briefView>
+<celldesigner:info state="empty" angle="-1.5707963267948966"/>
+</celldesigner:speciesAlias>
+<celldesigner:speciesAlias id="sa6" species="F6P" compartmentAlias="ca0">
+<celldesigner:activity>inactive</celldesigner:activity>
+<celldesigner:bounds x="173.0" y="599.0" w="80.0" h="40.0"/>
+<celldesigner:font size="12"/>
+<celldesigner:view state="usual"/>
+<celldesigner:usualView>
+<celldesigner:innerPosition x="148.0" y="574.0"/>
+<celldesigner:boxSize width="80.0" height="40.0"/>
+<celldesigner:singleLine width="1.0"/>
+<celldesigner:paint color="ffccffcc" scheme="Color"/>
+</celldesigner:usualView>
+<celldesigner:briefView>
+<celldesigner:innerPosition x="0.0" y="0.0"/>
+<celldesigner:boxSize width="80.0" height="60.0"/>
+<celldesigner:singleLine width="0.0"/>
+<celldesigner:paint color="3fff0000" scheme="Color"/>
+</celldesigner:briefView>
+<celldesigner:info state="empty" angle="-1.5707963267948966"/>
+</celldesigner:speciesAlias>
+<celldesigner:speciesAlias id="sa7" species="G6P" compartmentAlias="ca0">
+<celldesigner:activity>inactive</celldesigner:activity>
+<celldesigner:bounds x="144.0" y="525.0" w="80.0" h="40.0"/>
+<celldesigner:font size="12"/>
+<celldesigner:view state="usual"/>
+<celldesigner:usualView>
+<celldesigner:innerPosition x="119.0" y="500.0"/>
+<celldesigner:boxSize width="80.0" height="40.0"/>
+<celldesigner:singleLine width="1.0"/>
+<celldesigner:paint color="ffccffcc" scheme="Color"/>
+</celldesigner:usualView>
+<celldesigner:briefView>
+<celldesigner:innerPosition x="0.0" y="0.0"/>
+<celldesigner:boxSize width="80.0" height="60.0"/>
+<celldesigner:singleLine width="0.0"/>
+<celldesigner:paint color="3fff0000" scheme="Color"/>
+</celldesigner:briefView>
+<celldesigner:info state="empty" angle="-1.5707963267948966"/>
+</celldesigner:speciesAlias>
+<celldesigner:speciesAlias id="sa8" species="GLCi" compartmentAlias="ca0">
+<celldesigner:activity>inactive</celldesigner:activity>
+<celldesigner:bounds x="208.0" y="660.0" w="80.0" h="40.0"/>
+<celldesigner:font size="12"/>
+<celldesigner:view state="usual"/>
+<celldesigner:usualView>
+<celldesigner:innerPosition x="183.0" y="635.0"/>
+<celldesigner:boxSize width="80.0" height="40.0"/>
+<celldesigner:singleLine width="1.0"/>
+<celldesigner:paint color="ffccffcc" scheme="Color"/>
+</celldesigner:usualView>
+<celldesigner:briefView>
+<celldesigner:innerPosition x="0.0" y="0.0"/>
+<celldesigner:boxSize width="80.0" height="60.0"/>
+<celldesigner:singleLine width="0.0"/>
+<celldesigner:paint color="3fff0000" scheme="Color"/>
+</celldesigner:briefView>
+<celldesigner:info state="empty" angle="-1.5707963267948966"/>
+</celldesigner:speciesAlias>
+<celldesigner:speciesAlias id="sa9" species="GLCo" compartmentAlias="ca0">
+<celldesigner:activity>inactive</celldesigner:activity>
+<celldesigner:bounds x="256.0" y="734.0" w="80.0" h="40.0"/>
+<celldesigner:font size="12"/>
+<celldesigner:view state="usual"/>
+<celldesigner:usualView>
+<celldesigner:innerPosition x="231.0" y="709.0"/>
+<celldesigner:boxSize width="80.0" height="40.0"/>
+<celldesigner:singleLine width="1.0"/>
+<celldesigner:paint color="ffccffcc" scheme="Color"/>
+</celldesigner:usualView>
+<celldesigner:briefView>
+<celldesigner:innerPosition x="0.0" y="0.0"/>
+<celldesigner:boxSize width="80.0" height="60.0"/>
+<celldesigner:singleLine width="0.0"/>
+<celldesigner:paint color="3fff0000" scheme="Color"/>
+</celldesigner:briefView>
+<celldesigner:info state="empty" angle="-1.5707963267948966"/>
+</celldesigner:speciesAlias>
+<celldesigner:speciesAlias id="sa10" species="GLY" compartmentAlias="ca0">
+<celldesigner:activity>inactive</celldesigner:activity>
+<celldesigner:bounds x="168.0" y="160.0" w="80.0" h="40.0"/>
+<celldesigner:font size="12"/>
+<celldesigner:view state="usual"/>
+<celldesigner:usualView>
+<celldesigner:innerPosition x="143.0" y="135.0"/>
+<celldesigner:boxSize width="80.0" height="40.0"/>
+<celldesigner:singleLine width="1.0"/>
+<celldesigner:paint color="ffccffcc" scheme="Color"/>
+</celldesigner:usualView>
+<celldesigner:briefView>
+<celldesigner:innerPosition x="0.0" y="0.0"/>
+<celldesigner:boxSize width="80.0" height="60.0"/>
+<celldesigner:singleLine width="0.0"/>
+<celldesigner:paint color="3fff0000" scheme="Color"/>
+</celldesigner:briefView>
+<celldesigner:info state="empty" angle="-1.5707963267948966"/>
+</celldesigner:speciesAlias>
+<celldesigner:speciesAlias id="sa11" species="Glyc" compartmentAlias="ca0">
+<celldesigner:activity>inactive</celldesigner:activity>
+<celldesigner:bounds x="108.0" y="464.0" w="80.0" h="40.0"/>
+<celldesigner:font size="12"/>
+<celldesigner:view state="usual"/>
+<celldesigner:usualView>
+<celldesigner:innerPosition x="83.0" y="439.0"/>
+<celldesigner:boxSize width="80.0" height="40.0"/>
+<celldesigner:singleLine width="1.0"/>
+<celldesigner:paint color="ffccffcc" scheme="Color"/>
+</celldesigner:usualView>
+<celldesigner:briefView>
+<celldesigner:innerPosition x="0.0" y="0.0"/>
+<celldesigner:boxSize width="80.0" height="60.0"/>
+<celldesigner:singleLine width="0.0"/>
+<celldesigner:paint color="3fff0000" scheme="Color"/>
+</celldesigner:briefView>
+<celldesigner:info state="empty" angle="-1.5707963267948966"/>
+</celldesigner:speciesAlias>
+<celldesigner:speciesAlias id="sa12" species="NAD" compartmentAlias="ca0">
+<celldesigner:activity>inactive</celldesigner:activity>
+<celldesigner:bounds x="282.0" y="207.0" w="80.0" h="40.0"/>
+<celldesigner:font size="12"/>
+<celldesigner:view state="usual"/>
+<celldesigner:usualView>
+<celldesigner:innerPosition x="257.0" y="182.0"/>
+<celldesigner:boxSize width="80.0" height="40.0"/>
+<celldesigner:singleLine width="1.0"/>
+<celldesigner:paint color="ffccffcc" scheme="Color"/>
+</celldesigner:usualView>
+<celldesigner:briefView>
+<celldesigner:innerPosition x="0.0" y="0.0"/>
+<celldesigner:boxSize width="80.0" height="60.0"/>
+<celldesigner:singleLine width="0.0"/>
+<celldesigner:paint color="3fff0000" scheme="Color"/>
+</celldesigner:briefView>
+<celldesigner:info state="empty" angle="-1.5707963267948966"/>
+</celldesigner:speciesAlias>
+<celldesigner:speciesAlias id="sa13" species="NADH" compartmentAlias="ca0">
+<celldesigner:activity>inactive</celldesigner:activity>
+<celldesigner:bounds x="269.0" y="146.0" w="80.0" h="40.0"/>
+<celldesigner:font size="12"/>
+<celldesigner:view state="usual"/>
+<celldesigner:usualView>
+<celldesigner:innerPosition x="244.0" y="121.0"/>
+<celldesigner:boxSize width="80.0" height="40.0"/>
+<celldesigner:singleLine width="1.0"/>
+<celldesigner:paint color="ffccffcc" scheme="Color"/>
+</celldesigner:usualView>
+<celldesigner:briefView>
+<celldesigner:innerPosition x="0.0" y="0.0"/>
+<celldesigner:boxSize width="80.0" height="60.0"/>
+<celldesigner:singleLine width="0.0"/>
+<celldesigner:paint color="3fff0000" scheme="Color"/>
+</celldesigner:briefView>
+<celldesigner:info state="empty" angle="-1.5707963267948966"/>
+</celldesigner:speciesAlias>
+<celldesigner:speciesAlias id="sa14" species="P2G" compartmentAlias="ca0">
+<celldesigner:activity>inactive</celldesigner:activity>
+<celldesigner:bounds x="393.0" y="554.0" w="80.0" h="40.0"/>
+<celldesigner:font size="12"/>
+<celldesigner:view state="usual"/>
+<celldesigner:usualView>
+<celldesigner:innerPosition x="368.0" y="529.0"/>
+<celldesigner:boxSize width="80.0" height="40.0"/>
+<celldesigner:singleLine width="1.0"/>
+<celldesigner:paint color="ffccffcc" scheme="Color"/>
+</celldesigner:usualView>
+<celldesigner:briefView>
+<celldesigner:innerPosition x="0.0" y="0.0"/>
+<celldesigner:boxSize width="80.0" height="60.0"/>
+<celldesigner:singleLine width="0.0"/>
+<celldesigner:paint color="3fff0000" scheme="Color"/>
+</celldesigner:briefView>
+<celldesigner:info state="empty" angle="-1.5707963267948966"/>
+</celldesigner:speciesAlias>
+<celldesigner:speciesAlias id="sa15" species="P3G" compartmentAlias="ca0">
+<celldesigner:activity>inactive</celldesigner:activity>
+<celldesigner:bounds x="292.0" y="588.0" w="80.0" h="40.0"/>
+<celldesigner:font size="12"/>
+<celldesigner:view state="usual"/>
+<celldesigner:usualView>
+<celldesigner:innerPosition x="267.0" y="563.0"/>
+<celldesigner:boxSize width="80.0" height="40.0"/>
+<celldesigner:singleLine width="1.0"/>
+<celldesigner:paint color="ffccffcc" scheme="Color"/>
+</celldesigner:usualView>
+<celldesigner:briefView>
+<celldesigner:innerPosition x="0.0" y="0.0"/>
+<celldesigner:boxSize width="80.0" height="60.0"/>
+<celldesigner:singleLine width="0.0"/>
+<celldesigner:paint color="3fff0000" scheme="Color"/>
+</celldesigner:briefView>
+<celldesigner:info state="empty" angle="-1.5707963267948966"/>
+</celldesigner:speciesAlias>
+<celldesigner:speciesAlias id="sa16" species="PEP" compartmentAlias="ca0">
+<celldesigner:activity>inactive</celldesigner:activity>
+<celldesigner:bounds x="359.0" y="472.0" w="80.0" h="40.0"/>
+<celldesigner:font size="12"/>
+<celldesigner:view state="usual"/>
+<celldesigner:usualView>
+<celldesigner:innerPosition x="334.0" y="447.0"/>
+<celldesigner:boxSize width="80.0" height="40.0"/>
+<celldesigner:singleLine width="1.0"/>
+<celldesigner:paint color="ffccffcc" scheme="Color"/>
+</celldesigner:usualView>
+<celldesigner:briefView>
+<celldesigner:innerPosition x="0.0" y="0.0"/>
+<celldesigner:boxSize width="80.0" height="60.0"/>
+<celldesigner:singleLine width="0.0"/>
+<celldesigner:paint color="3fff0000" scheme="Color"/>
+</celldesigner:briefView>
+<celldesigner:info state="empty" angle="-1.5707963267948966"/>
+</celldesigner:speciesAlias>
+<celldesigner:speciesAlias id="sa17" species="PHOS" compartmentAlias="ca0">
+<celldesigner:activity>inactive</celldesigner:activity>
+<celldesigner:bounds x="150.0" y="342.0" w="80.0" h="40.0"/>
+<celldesigner:font size="12"/>
+<celldesigner:view state="usual"/>
+<celldesigner:usualView>
+<celldesigner:innerPosition x="125.0" y="317.0"/>
+<celldesigner:boxSize width="80.0" height="40.0"/>
+<celldesigner:singleLine width="1.0"/>
+<celldesigner:paint color="ffccffcc" scheme="Color"/>
+</celldesigner:usualView>
+<celldesigner:briefView>
+<celldesigner:innerPosition x="0.0" y="0.0"/>
+<celldesigner:boxSize width="80.0" height="60.0"/>
+<celldesigner:singleLine width="0.0"/>
+<celldesigner:paint color="3fff0000" scheme="Color"/>
+</celldesigner:briefView>
+<celldesigner:info state="empty" angle="-1.5707963267948966"/>
+</celldesigner:speciesAlias>
+<celldesigner:speciesAlias id="sa18" species="PYR" compartmentAlias="ca0">
+<celldesigner:activity>inactive</celldesigner:activity>
+<celldesigner:bounds x="365.0" y="411.0" w="80.0" h="40.0"/>
+<celldesigner:font size="12"/>
+<celldesigner:view state="usual"/>
+<celldesigner:usualView>
+<celldesigner:innerPosition x="340.0" y="386.0"/>
+<celldesigner:boxSize width="80.0" height="40.0"/>
+<celldesigner:singleLine width="1.0"/>
+<celldesigner:paint color="ffccffcc" scheme="Color"/>
+</celldesigner:usualView>
+<celldesigner:briefView>
+<celldesigner:innerPosition x="0.0" y="0.0"/>
+<celldesigner:boxSize width="80.0" height="60.0"/>
+<celldesigner:singleLine width="0.0"/>
+<celldesigner:paint color="3fff0000" scheme="Color"/>
+</celldesigner:briefView>
+<celldesigner:info state="empty" angle="-1.5707963267948966"/>
+</celldesigner:speciesAlias>
+<celldesigner:speciesAlias id="sa19" species="Prb" compartmentAlias="ca0">
+<celldesigner:activity>inactive</celldesigner:activity>
+<celldesigner:bounds x="226.0" y="440.0" w="80.0" h="40.0"/>
+<celldesigner:font size="12"/>
+<celldesigner:view state="usual"/>
+<celldesigner:usualView>
+<celldesigner:innerPosition x="201.0" y="415.0"/>
+<celldesigner:boxSize width="80.0" height="40.0"/>
+<celldesigner:singleLine width="1.0"/>
+<celldesigner:paint color="ffccffcc" scheme="Color"/>
+</celldesigner:usualView>
+<celldesigner:briefView>
+<celldesigner:innerPosition x="0.0" y="0.0"/>
+<celldesigner:boxSize width="80.0" height="60.0"/>
+<celldesigner:singleLine width="0.0"/>
+<celldesigner:paint color="3fff0000" scheme="Color"/>
+</celldesigner:briefView>
+<celldesigner:info state="empty" angle="-1.5707963267948966"/>
+</celldesigner:speciesAlias>
+<celldesigner:speciesAlias id="sa20" species="SUCC" compartmentAlias="ca0">
+<celldesigner:activity>inactive</celldesigner:activity>
+<celldesigner:bounds x="370.0" y="135.0" w="80.0" h="40.0"/>
+<celldesigner:font size="12"/>
+<celldesigner:view state="usual"/>
+<celldesigner:usualView>
+<celldesigner:innerPosition x="345.0" y="110.0"/>
+<celldesigner:boxSize width="80.0" height="40.0"/>
+<celldesigner:singleLine width="1.0"/>
+<celldesigner:paint color="ffccffcc" scheme="Color"/>
+</celldesigner:usualView>
+<celldesigner:briefView>
+<celldesigner:innerPosition x="0.0" y="0.0"/>
+<celldesigner:boxSize width="80.0" height="60.0"/>
+<celldesigner:singleLine width="0.0"/>
+<celldesigner:paint color="3fff0000" scheme="Color"/>
+</celldesigner:briefView>
+<celldesigner:info state="empty" angle="-1.5707963267948966"/>
+</celldesigner:speciesAlias>
+<celldesigner:speciesAlias id="sa21" species="TRIO" compartmentAlias="ca0">
+<celldesigner:activity>inactive</celldesigner:activity>
+<celldesigner:bounds x="221.0" y="281.0" w="80.0" h="40.0"/>
+<celldesigner:font size="12"/>
+<celldesigner:view state="usual"/>
+<celldesigner:usualView>
+<celldesigner:innerPosition x="196.0" y="256.0"/>
+<celldesigner:boxSize width="80.0" height="40.0"/>
+<celldesigner:singleLine width="1.0"/>
+<celldesigner:paint color="ffccffcc" scheme="Color"/>
+</celldesigner:usualView>
+<celldesigner:briefView>
+<celldesigner:innerPosition x="0.0" y="0.0"/>
+<celldesigner:boxSize width="80.0" height="60.0"/>
+<celldesigner:singleLine width="0.0"/>
+<celldesigner:paint color="3fff0000" scheme="Color"/>
+</celldesigner:briefView>
+<celldesigner:info state="empty" angle="-1.5707963267948966"/>
+</celldesigner:speciesAlias>
+<celldesigner:speciesAlias id="sa22" species="Trh" compartmentAlias="ca0">
+<celldesigner:activity>inactive</celldesigner:activity>
+<celldesigner:bounds x="112.0" y="403.0" w="80.0" h="40.0"/>
+<celldesigner:font size="12"/>
+<celldesigner:view state="usual"/>
+<celldesigner:usualView>
+<celldesigner:innerPosition x="87.0" y="378.0"/>
+<celldesigner:boxSize width="80.0" height="40.0"/>
+<celldesigner:singleLine width="1.0"/>
+<celldesigner:paint color="ffccffcc" scheme="Color"/>
+</celldesigner:usualView>
+<celldesigner:briefView>
+<celldesigner:innerPosition x="0.0" y="0.0"/>
+<celldesigner:boxSize width="80.0" height="60.0"/>
+<celldesigner:singleLine width="0.0"/>
+<celldesigner:paint color="3fff0000" scheme="Color"/>
+</celldesigner:briefView>
+<celldesigner:info state="empty" angle="-1.5707963267948966"/>
+</celldesigner:speciesAlias>
+<celldesigner:speciesAlias id="sa23" species="X" compartmentAlias="ca0">
+<celldesigner:activity>inactive</celldesigner:activity>
+<celldesigner:bounds x="67.0" y="209.0" w="80.0" h="40.0"/>
+<celldesigner:font size="12"/>
+<celldesigner:view state="usual"/>
+<celldesigner:usualView>
+<celldesigner:innerPosition x="42.0" y="184.0"/>
+<celldesigner:boxSize width="80.0" height="40.0"/>
+<celldesigner:singleLine width="1.0"/>
+<celldesigner:paint color="ffccffcc" scheme="Color"/>
+</celldesigner:usualView>
+<celldesigner:briefView>
+<celldesigner:innerPosition x="0.0" y="0.0"/>
+<celldesigner:boxSize width="80.0" height="60.0"/>
+<celldesigner:singleLine width="0.0"/>
+<celldesigner:paint color="3fff0000" scheme="Color"/>
+</celldesigner:briefView>
+<celldesigner:info state="empty" angle="-1.5707963267948966"/>
+</celldesigner:speciesAlias>
+</celldesigner:listOfSpeciesAliases>
+<celldesigner:listOfGroups/>
+<celldesigner:listOfProteins>
+<celldesigner:protein id="pr1" name="ACE" type="GENERIC"/>
+<celldesigner:protein id="pr2" name="ATP" type="GENERIC"/>
+<celldesigner:protein id="pr3" name="BPG" type="GENERIC"/>
+<celldesigner:protein id="pr4" name="CO2" type="GENERIC"/>
+<celldesigner:protein id="pr5" name="ETOH" type="GENERIC"/>
+<celldesigner:protein id="pr6" name="F16P" type="GENERIC"/>
+<celldesigner:protein id="pr7" name="F6P" type="GENERIC"/>
+<celldesigner:protein id="pr8" name="G6P" type="GENERIC"/>
+<celldesigner:protein id="pr9" name="GLCi" type="GENERIC"/>
+<celldesigner:protein id="pr10" name="GLCo" type="GENERIC"/>
+<celldesigner:protein id="pr11" name="GLY" type="GENERIC"/>
+<celldesigner:protein id="pr12" name="Glyc" type="GENERIC"/>
+<celldesigner:protein id="pr13" name="NAD" type="GENERIC"/>
+<celldesigner:protein id="pr14" name="NADH" type="GENERIC"/>
+<celldesigner:protein id="pr15" name="P2G" type="GENERIC"/>
+<celldesigner:protein id="pr16" name="P3G" type="GENERIC"/>
+<celldesigner:protein id="pr17" name="PEP" type="GENERIC"/>
+<celldesigner:protein id="pr18" name="PHOS" type="GENERIC"/>
+<celldesigner:protein id="pr19" name="PYR" type="GENERIC"/>
+<celldesigner:protein id="pr20" name="Prb" type="GENERIC"/>
+<celldesigner:protein id="pr21" name="SUCC" type="GENERIC"/>
+<celldesigner:protein id="pr22" name="TRIO" type="GENERIC"/>
+<celldesigner:protein id="pr23" name="Trh" type="GENERIC"/>
+<celldesigner:protein id="pr24" name="X" type="GENERIC"/>
+</celldesigner:listOfProteins>
+<celldesigner:listOfGenes/>
+<celldesigner:listOfRNAs/>
+<celldesigner:listOfAntisenseRNAs/>
+<celldesigner:listOfLayers/>
+<celldesigner:listOfBlockDiagrams/>
+</celldesigner:extension>
+</annotation>
+<listOfUnitDefinitions>
+<unitDefinition metaid="substance" id="substance" name="substance">
+<listOfUnits>
+<unit metaid="CDMT00019" kind="mole"/>
+</listOfUnits>
+</unitDefinition>
+<unitDefinition metaid="volume" id="volume" name="volume">
+<listOfUnits>
+<unit metaid="CDMT00020" kind="litre"/>
+</listOfUnits>
+</unitDefinition>
+<unitDefinition metaid="area" id="area" name="area">
+<listOfUnits>
+<unit metaid="CDMT00021" kind="metre" exponent="2"/>
+</listOfUnits>
+</unitDefinition>
+<unitDefinition metaid="length" id="length" name="length">
+<listOfUnits>
+<unit metaid="CDMT00022" kind="metre"/>
+</listOfUnits>
+</unitDefinition>
+<unitDefinition metaid="time" id="time" name="time">
+<listOfUnits>
+<unit metaid="CDMT00023" kind="second"/>
+</listOfUnits>
+</unitDefinition>
+</listOfUnitDefinitions>
+<listOfCompartments>
+<compartment metaid="default" id="default" size="1" units="volume"/>
+<compartment metaid="metaid_0" id="compartment" name="compartment" size="1" units="volume" outside="default">
+<annotation>
+<celldesigner:extension>
+<celldesigner:name>compartment</celldesigner:name>
+</celldesigner:extension>
+</annotation>
+</compartment>
+</listOfCompartments>
+<listOfSpecies>
+<species metaid="metaid_1" id="ACE" name="ACE" compartment="compartment" initialConcentration="0.0474837">
+<annotation>
+<celldesigner:extension>
+<celldesigner:positionToCompartment>transmembrane</celldesigner:positionToCompartment>
+<celldesigner:speciesIdentity>
+<celldesigner:class>PROTEIN</celldesigner:class>
+<celldesigner:proteinReference>pr1</celldesigner:proteinReference>
+</celldesigner:speciesIdentity>
+</celldesigner:extension>
+</annotation>
+</species>
+<species metaid="metaid_2" id="ATP" name="ATP" compartment="compartment" initialConcentration="2.06497">
+<annotation>
+<celldesigner:extension>
+<celldesigner:positionToCompartment>transmembrane</celldesigner:positionToCompartment>
+<celldesigner:speciesIdentity>
+<celldesigner:class>PROTEIN</celldesigner:class>
+<celldesigner:proteinReference>pr2</celldesigner:proteinReference>
+</celldesigner:speciesIdentity>
+</celldesigner:extension>
+</annotation>
+</species>
+<species metaid="metaid_3" id="BPG" name="BPG" compartment="compartment" initialConcentration="0.111">
+<annotation>
+<celldesigner:extension>
+<celldesigner:positionToCompartment>transmembrane</celldesigner:positionToCompartment>
+<celldesigner:speciesIdentity>
+<celldesigner:class>PROTEIN</celldesigner:class>
+<celldesigner:proteinReference>pr3</celldesigner:proteinReference>
+</celldesigner:speciesIdentity>
+</celldesigner:extension>
+</annotation>
+</species>
+<species metaid="metaid_4" id="CO2" name="CO2" compartment="compartment" initialConcentration="1" boundaryCondition="true">
+<annotation>
+<celldesigner:extension>
+<celldesigner:positionToCompartment>transmembrane</celldesigner:positionToCompartment>
+<celldesigner:speciesIdentity>
+<celldesigner:class>PROTEIN</celldesigner:class>
+<celldesigner:proteinReference>pr4</celldesigner:proteinReference>
+</celldesigner:speciesIdentity>
+</celldesigner:extension>
+</annotation>
+</species>
+<species metaid="metaid_5" id="ETOH" name="ETOH" compartment="compartment" initialConcentration="0" boundaryCondition="true">
+<annotation>
+<celldesigner:extension>
+<celldesigner:positionToCompartment>transmembrane</celldesigner:positionToCompartment>
+<celldesigner:speciesIdentity>
+<celldesigner:class>PROTEIN</celldesigner:class>
+<celldesigner:proteinReference>pr5</celldesigner:proteinReference>
+</celldesigner:speciesIdentity>
+</celldesigner:extension>
+</annotation>
+</species>
+<species metaid="metaid_6" id="F16P" name="F16P" compartment="compartment" initialConcentration="0.836">
+<annotation>
+<celldesigner:extension>
+<celldesigner:positionToCompartment>transmembrane</celldesigner:positionToCompartment>
+<celldesigner:speciesIdentity>
+<celldesigner:class>PROTEIN</celldesigner:class>
+<celldesigner:proteinReference>pr6</celldesigner:proteinReference>
+</celldesigner:speciesIdentity>
+<celldesigner:listOfCatalyzedReactions>
+<celldesigner:catalyzed reaction="v11"/>
+</celldesigner:listOfCatalyzedReactions>
+</celldesigner:extension>
+</annotation>
+</species>
+<species metaid="metaid_7" id="F6P" name="F6P" compartment="compartment" initialConcentration="0.75247">
+<annotation>
+<celldesigner:extension>
+<celldesigner:positionToCompartment>transmembrane</celldesigner:positionToCompartment>
+<celldesigner:speciesIdentity>
+<celldesigner:class>PROTEIN</celldesigner:class>
+<celldesigner:proteinReference>pr7</celldesigner:proteinReference>
+</celldesigner:speciesIdentity>
+</celldesigner:extension>
+</annotation>
+</species>
+<species metaid="metaid_8" id="G6P" name="G6P" compartment="compartment" initialConcentration="3.085">
+<annotation>
+<celldesigner:extension>
+<celldesigner:positionToCompartment>transmembrane</celldesigner:positionToCompartment>
+<celldesigner:speciesIdentity>
+<celldesigner:class>PROTEIN</celldesigner:class>
+<celldesigner:proteinReference>pr8</celldesigner:proteinReference>
+</celldesigner:speciesIdentity>
+</celldesigner:extension>
+</annotation>
+</species>
+<species metaid="metaid_9" id="GLCi" name="GLCi" compartment="compartment" initialConcentration="0.087">
+<annotation>
+<celldesigner:extension>
+<celldesigner:positionToCompartment>transmembrane</celldesigner:positionToCompartment>
+<celldesigner:speciesIdentity>
+<celldesigner:class>PROTEIN</celldesigner:class>
+<celldesigner:proteinReference>pr9</celldesigner:proteinReference>
+</celldesigner:speciesIdentity>
+</celldesigner:extension>
+</annotation>
+</species>
+<species metaid="metaid_10" id="GLCo" name="GLCo" compartment="compartment" initialConcentration="110" boundaryCondition="true">
+<annotation>
+<celldesigner:extension>
+<celldesigner:positionToCompartment>transmembrane</celldesigner:positionToCompartment>
+<celldesigner:speciesIdentity>
+<celldesigner:class>PROTEIN</celldesigner:class>
+<celldesigner:proteinReference>pr10</celldesigner:proteinReference>
+</celldesigner:speciesIdentity>
+</celldesigner:extension>
+</annotation>
+</species>
+<species metaid="metaid_11" id="GLY" name="GLY" compartment="compartment" initialConcentration="0.15" boundaryCondition="true">
+<annotation>
+<celldesigner:extension>
+<celldesigner:positionToCompartment>transmembrane</celldesigner:positionToCompartment>
+<celldesigner:speciesIdentity>
+<celldesigner:class>PROTEIN</celldesigner:class>
+<celldesigner:proteinReference>pr11</celldesigner:proteinReference>
+</celldesigner:speciesIdentity>
+</celldesigner:extension>
+</annotation>
+</species>
+<species metaid="metaid_12" id="Glyc" name="Glyc" compartment="compartment" initialConcentration="0" boundaryCondition="true">
+<annotation>
+<celldesigner:extension>
+<celldesigner:positionToCompartment>transmembrane</celldesigner:positionToCompartment>
+<celldesigner:speciesIdentity>
+<celldesigner:class>PROTEIN</celldesigner:class>
+<celldesigner:proteinReference>pr12</celldesigner:proteinReference>
+</celldesigner:speciesIdentity>
+</celldesigner:extension>
+</annotation>
+</species>
+<species metaid="metaid_13" id="NAD" name="NAD" compartment="compartment" initialConcentration="0" boundaryCondition="true">
+<annotation>
+<celldesigner:extension>
+<celldesigner:positionToCompartment>transmembrane</celldesigner:positionToCompartment>
+<celldesigner:speciesIdentity>
+<celldesigner:class>PROTEIN</celldesigner:class>
+<celldesigner:proteinReference>pr13</celldesigner:proteinReference>
+</celldesigner:speciesIdentity>
+</celldesigner:extension>
+</annotation>
+</species>
+<species metaid="metaid_14" id="NADH" name="NADH" compartment="compartment" initialConcentration="0.044">
+<annotation>
+<celldesigner:extension>
+<celldesigner:positionToCompartment>transmembrane</celldesigner:positionToCompartment>
+<celldesigner:speciesIdentity>
+<celldesigner:class>PROTEIN</celldesigner:class>
+<celldesigner:proteinReference>pr14</celldesigner:proteinReference>
+</celldesigner:speciesIdentity>
+</celldesigner:extension>
+</annotation>
+</species>
+<species metaid="metaid_15" id="P2G" name="P2G" compartment="compartment" initialConcentration="0.13771">
+<annotation>
+<celldesigner:extension>
+<celldesigner:positionToCompartment>transmembrane</celldesigner:positionToCompartment>
+<celldesigner:speciesIdentity>
+<celldesigner:class>PROTEIN</celldesigner:class>
+<celldesigner:proteinReference>pr15</celldesigner:proteinReference>
+</celldesigner:speciesIdentity>
+</celldesigner:extension>
+</annotation>
+</species>
+<species metaid="metaid_16" id="P3G" name="P3G" compartment="compartment" initialConcentration="0.825">
+<annotation>
+<celldesigner:extension>
+<celldesigner:positionToCompartment>transmembrane</celldesigner:positionToCompartment>
+<celldesigner:speciesIdentity>
+<celldesigner:class>PROTEIN</celldesigner:class>
+<celldesigner:proteinReference>pr16</celldesigner:proteinReference>
+</celldesigner:speciesIdentity>
+</celldesigner:extension>
+</annotation>
+</species>
+<species metaid="metaid_17" id="PEP" name="PEP" compartment="compartment" initialConcentration="0.1404">
+<annotation>
+<celldesigner:extension>
+<celldesigner:positionToCompartment>transmembrane</celldesigner:positionToCompartment>
+<celldesigner:speciesIdentity>
+<celldesigner:class>PROTEIN</celldesigner:class>
+<celldesigner:proteinReference>pr17</celldesigner:proteinReference>
+</celldesigner:speciesIdentity>
+</celldesigner:extension>
+</annotation>
+</species>
+<species metaid="metaid_18" id="PHOS" name="PHOS" compartment="compartment" initialConcentration="10">
+<annotation>
+<celldesigner:extension>
+<celldesigner:positionToCompartment>transmembrane</celldesigner:positionToCompartment>
+<celldesigner:speciesIdentity>
+<celldesigner:class>PROTEIN</celldesigner:class>
+<celldesigner:proteinReference>pr18</celldesigner:proteinReference>
+</celldesigner:speciesIdentity>
+</celldesigner:extension>
+</annotation>
+</species>
+<species metaid="metaid_19" id="PYR" name="PYR" compartment="compartment" initialConcentration="0.884031">
+<annotation>
+<celldesigner:extension>
+<celldesigner:positionToCompartment>transmembrane</celldesigner:positionToCompartment>
+<celldesigner:speciesIdentity>
+<celldesigner:class>PROTEIN</celldesigner:class>
+<celldesigner:proteinReference>pr19</celldesigner:proteinReference>
+</celldesigner:speciesIdentity>
+</celldesigner:extension>
+</annotation>
+</species>
+<species metaid="metaid_20" id="Prb" name="Prb" compartment="compartment" initialConcentration="5">
+<annotation>
+<celldesigner:extension>
+<celldesigner:positionToCompartment>transmembrane</celldesigner:positionToCompartment>
+<celldesigner:speciesIdentity>
+<celldesigner:class>PROTEIN</celldesigner:class>
+<celldesigner:proteinReference>pr20</celldesigner:proteinReference>
+</celldesigner:speciesIdentity>
+</celldesigner:extension>
+</annotation>
+</species>
+<species metaid="metaid_21" id="SUCC" name="SUCC" compartment="compartment" initialConcentration="0" boundaryCondition="true">
+<annotation>
+<celldesigner:extension>
+<celldesigner:positionToCompartment>transmembrane</celldesigner:positionToCompartment>
+<celldesigner:speciesIdentity>
+<celldesigner:class>PROTEIN</celldesigner:class>
+<celldesigner:proteinReference>pr21</celldesigner:proteinReference>
+</celldesigner:speciesIdentity>
+</celldesigner:extension>
+</annotation>
+</species>
+<species metaid="metaid_22" id="TRIO" name="TRIO" compartment="compartment" initialConcentration="0.5177">
+<annotation>
+<celldesigner:extension>
+<celldesigner:positionToCompartment>transmembrane</celldesigner:positionToCompartment>
+<celldesigner:speciesIdentity>
+<celldesigner:class>PROTEIN</celldesigner:class>
+<celldesigner:proteinReference>pr22</celldesigner:proteinReference>
+</celldesigner:speciesIdentity>
+</celldesigner:extension>
+</annotation>
+</species>
+<species metaid="metaid_23" id="Trh" name="Trh" compartment="compartment" initialConcentration="0" boundaryCondition="true">
+<annotation>
+<celldesigner:extension>
+<celldesigner:positionToCompartment>transmembrane</celldesigner:positionToCompartment>
+<celldesigner:speciesIdentity>
+<celldesigner:class>PROTEIN</celldesigner:class>
+<celldesigner:proteinReference>pr23</celldesigner:proteinReference>
+</celldesigner:speciesIdentity>
+</celldesigner:extension>
+</annotation>
+</species>
+<species metaid="metaid_24" id="X" name="X" compartment="compartment" initialConcentration="0" boundaryCondition="true">
+<annotation>
+<celldesigner:extension>
+<celldesigner:positionToCompartment>transmembrane</celldesigner:positionToCompartment>
+<celldesigner:speciesIdentity>
+<celldesigner:class>PROTEIN</celldesigner:class>
+<celldesigner:proteinReference>pr24</celldesigner:proteinReference>
+</celldesigner:speciesIdentity>
+</celldesigner:extension>
+</annotation>
+</species>
+</listOfSpecies>
+<listOfParameters>
+<parameter metaid="metaid_25" id="CPFKAMP" name="CPFKAMP" value="0.0845"/>
+<parameter metaid="metaid_26" id="CPFKATP" name="CPFKATP" value="3"/>
+<parameter metaid="metaid_27" id="CPFKF16BP" name="CPFKF16BP" value="0.397"/>
+<parameter metaid="metaid_28" id="CPFKF26BP" name="CPFKF26BP" value="0.0174"/>
+<parameter metaid="metaid_29" id="CPFKF6P" name="CPFKF6P" value="0"/>
+<parameter metaid="metaid_30" id="CiPFKATP" name="CiPFKATP" value="100"/>
+<parameter metaid="metaid_31" id="F26BP" name="F26BP" value="0.02"/>
+<parameter metaid="metaid_32" id="KATPASE" name="KATPASE" value="39.5"/>
+<parameter metaid="metaid_33" id="KEQAK" name="KEQAK" value="0.45"/>
+<parameter metaid="metaid_34" id="KEQHK" name="KEQHK" value="3800"/>
+<parameter metaid="metaid_35" id="KMHKADP" name="KMHKADP" value="0.23"/>
+<parameter metaid="metaid_36" id="KMHKATP" name="KMHKATP" value="0.15"/>
+<parameter metaid="metaid_37" id="KMHKG6P" name="KMHKG6P" value="30"/>
+<parameter metaid="metaid_38" id="KMHKGLCi" name="KMHKGLCi" value="0.08"/>
+<parameter metaid="metaid_39" id="KPFKAMP" name="KPFKAMP" value="0.0995"/>
+<parameter metaid="metaid_40" id="KPFKF16BP" name="KPFKF16BP" value="0.111"/>
+<parameter metaid="metaid_41" id="KPFKF26BP" name="KPFKF26BP" value="0.000682"/>
+<parameter metaid="metaid_42" id="KPHOS" name="KPHOS" value="0.1"/>
+<parameter metaid="metaid_43" id="KSUCC" name="KSUCC" value="21.4"/>
+<parameter metaid="metaid_44" id="KTREHALOSE" name="KTREHALOSE" value="2.32"/>
+<parameter metaid="metaid_45" id="KeqADH" name="KeqADH" value="6.9e-005"/>
+<parameter metaid="metaid_46" id="KeqAK" name="KeqAK" value="0.45"/>
+<parameter metaid="metaid_47" id="KeqALD" name="KeqALD" value="0.069"/>
+<parameter metaid="metaid_48" id="KeqENO" name="KeqENO" value="6.7"/>
+<parameter metaid="metaid_49" id="KeqG3PDH" name="KeqG3PDH" value="4300"/>
+<parameter metaid="metaid_50" id="KeqGLT" name="KeqGLT" value="1"/>
+<parameter metaid="metaid_51" id="KeqPGI" name="KeqPGI" value="0.314"/>
+<parameter metaid="metaid_52" id="KeqPGK" name="KeqPGK" value="3200"/>
+<parameter metaid="metaid_53" id="KeqPGM" name="KeqPGM" value="0.19"/>
+<parameter metaid="metaid_54" id="KeqPYK" name="KeqPYK" value="6500"/>
+<parameter metaid="metaid_55" id="KeqTPI" name="KeqTPI" value="0.045"/>
+<parameter metaid="metaid_56" id="KiADHACE" name="KiADHACE" value="1.1"/>
+<parameter metaid="metaid_57" id="KiADHETOH" name="KiADHETOH" value="90"/>
+<parameter metaid="metaid_58" id="KiADHNAD" name="KiADHNAD" value="0.92"/>
+<parameter metaid="metaid_59" id="KiADHNADH" name="KiADHNADH" value="0.031"/>
+<parameter metaid="metaid_60" id="KiHKG6P" name="KiHKG6P" value="0.07"/>
+<parameter metaid="metaid_61" id="KiPFKATP" name="KiPFKATP" value="0.65"/>
+<parameter metaid="metaid_62" id="KmADHACE" name="KmADHACE" value="1.11"/>
+<parameter metaid="metaid_63" id="KmADHETOH" name="KmADHETOH" value="17"/>
+<parameter metaid="metaid_64" id="KmADHNAD" name="KmADHNAD" value="0.17"/>
+<parameter metaid="metaid_65" id="KmADHNADH" name="KmADHNADH" value="0.11"/>
+<parameter metaid="metaid_66" id="KmALDDHAP" name="KmALDDHAP" value="2.4"/>
+<parameter metaid="metaid_67" id="KmALDF16P" name="KmALDF16P" value="0.3"/>
+<parameter metaid="metaid_68" id="KmALDGAP" name="KmALDGAP" value="2"/>
+<parameter metaid="metaid_69" id="KmALDGAPi" name="KmALDGAPi" value="10"/>
+<parameter metaid="metaid_70" id="KmENOP2G" name="KmENOP2G" value="0.04"/>
+<parameter metaid="metaid_71" id="KmENOPEP" name="KmENOPEP" value="0.5"/>
+<parameter metaid="metaid_72" id="KmG3PDHDHAP" name="KmG3PDHDHAP" value="0.4"/>
+<parameter metaid="metaid_73" id="KmG3PDHGLY" name="KmG3PDHGLY" value="1"/>
+<parameter metaid="metaid_74" id="KmG3PDHNAD" name="KmG3PDHNAD" value="0.93"/>
+<parameter metaid="metaid_75" id="KmG3PDHNADH" name="KmG3PDHNADH" value="0.023"/>
+<parameter metaid="metaid_76" id="KmGAPDHBPG" name="KmGAPDHBPG" value="0.0098"/>
+<parameter metaid="metaid_77" id="KmGAPDHGAP" name="KmGAPDHGAP" value="0.21"/>
+<parameter metaid="metaid_78" id="KmGAPDHNAD" name="KmGAPDHNAD" value="0.09"/>
+<parameter metaid="metaid_79" id="KmGAPDHNADH" name="KmGAPDHNADH" value="0.06"/>
+<parameter metaid="metaid_80" id="KmGLTGLCi" name="KmGLTGLCi" value="1.1918"/>
+<parameter metaid="metaid_81" id="KmGLTGLCo" name="KmGLTGLCo" value="1.1918"/>
+<parameter metaid="metaid_82" id="KmGLYCOGEN" name="KmGLYCOGEN" value="5.8"/>
+<parameter metaid="metaid_83" id="KmPDCPYR" name="KmPDCPYR" value="4.33"/>
+<parameter metaid="metaid_84" id="KmPFKATP" name="KmPFKATP" value="0.71"/>
+<parameter metaid="metaid_85" id="KmPFKF6P" name="KmPFKF6P" value="0.1"/>
+<parameter metaid="metaid_86" id="KmPGIF6P" name="KmPGIF6P" value="0.3"/>
+<parameter metaid="metaid_87" id="KmPGIG6P" name="KmPGIG6P" value="1.4"/>
+<parameter metaid="metaid_88" id="KmPGKADP" name="KmPGKADP" value="0.2"/>
+<parameter metaid="metaid_89" id="KmPGKATP" name="KmPGKATP" value="0.3"/>
+<parameter metaid="metaid_90" id="KmPGKBPG" name="KmPGKBPG" value="0.003"/>
+<parameter metaid="metaid_91" id="KmPGKP3G" name="KmPGKP3G" value="0.53"/>
+<parameter metaid="metaid_92" id="KmPGMP2G" name="KmPGMP2G" value="0.08"/>
+<parameter metaid="metaid_93" id="KmPGMP3G" name="KmPGMP3G" value="1.2"/>
+<parameter metaid="metaid_94" id="KmPYKADP" name="KmPYKADP" value="0.3"/>
+<parameter metaid="metaid_95" id="KmPYKATP" name="KmPYKATP" value="9.3"/>
+<parameter metaid="metaid_96" id="KmPYKF16P" name="KmPYKF16P" value="0.2"/>
+<parameter metaid="metaid_97" id="KmPYKPEP" name="KmPYKPEP" value="0.19"/>
+<parameter metaid="metaid_98" id="L0" name="L0" value="0.66"/>
+<parameter metaid="metaid_99" id="L0PYK" name="L0PYK" value="60000"/>
+<parameter metaid="metaid_100" id="NADt" name="NADt" value="1.59"/>
+<parameter metaid="metaid_101" id="SUMAXP" name="SUMAXP" value="3.1"/>
+<parameter metaid="metaid_102" id="VMAXHK" name="VMAXHK" value="226.452"/>
+<parameter metaid="metaid_103" id="VmADH" name="VmADH" value="810"/>
+<parameter metaid="metaid_104" id="VmALD" name="VmALD" value="322.258"/>
+<parameter metaid="metaid_105" id="VmENO" name="VmENO" value="365.806"/>
+<parameter metaid="metaid_106" id="VmG3PDH" name="VmG3PDH" value="70.15"/>
+<parameter metaid="metaid_107" id="VmGAPDHf" name="VmGAPDHf" value="1184.52"/>
+<parameter metaid="metaid_108" id="VmGAPDHr" name="VmGAPDHr" value="6549.68"/>
+<parameter metaid="metaid_109" id="VmGLT" name="VmGLT" value="198"/>
+<parameter metaid="metaid_110" id="VmPDC" name="VmPDC" value="1062.58"/>
+<parameter metaid="metaid_111" id="VmPFK" name="VmPFK" value="182.903"/>
+<parameter metaid="metaid_112" id="VmPGI" name="VmPGI" value="339.677"/>
+<parameter metaid="metaid_113" id="VmPGK" name="VmPGK" value="1306.45"/>
+<parameter metaid="metaid_114" id="VmPGM" name="VmPGM" value="2525.81"/>
+<parameter metaid="metaid_115" id="VmPYK" name="VmPYK" value="1088.71"/>
+<parameter metaid="metaid_116" id="gR" name="gR" value="5.12"/>
+<parameter metaid="metaid_117" id="nPDC" name="nPDC" value="1.9"/>
+<parameter metaid="metaid_118" id="npyk" name="npyk" value="4"/>
+<parameter metaid="metaid_119" id="pT" name="pT" value="10"/>
+<parameter metaid="metaid_120" id="wt" name="wt" value="1"/>
+</listOfParameters>
+<listOfRules>
+<assignmentRule metaid="metaid_121" variable="ATP">
+<math xmlns="http://www.w3.org/1998/Math/MathML">
+<apply>
+<divide/>
+<apply>
+<plus/>
+<apply>
+<minus/>
+<ci> SUMAXP </ci>
+</apply>
+<apply>
+<times/>
+<apply>
+<minus/>
+<cn> 1 </cn>
+<apply>
+<times/>
+<cn> 4 </cn>
+<ci> KEQAK </ci>
+</apply>
+</apply>
+<ci> Prb </ci>
+</apply>
+<apply>
+<power/>
+<apply>
+<plus/>
+<apply>
+<times/>
+<cn> 4 </cn>
+<apply>
+<minus/>
+<cn> 1 </cn>
+<apply>
+<times/>
+<cn> 4 </cn>
+<ci> KEQAK </ci>
+</apply>
+</apply>
+<ci> KEQAK </ci>
+<apply>
+<power/>
+<ci> Prb </ci>
+<cn> 2 </cn>
+</apply>
+</apply>
+<apply>
+<power/>
+<apply>
+<minus/>
+<ci> SUMAXP </ci>
+<apply>
+<times/>
+<apply>
+<minus/>
+<cn> 1 </cn>
+<apply>
+<times/>
+<cn> 4 </cn>
+<ci> KEQAK </ci>
+</apply>
+</apply>
+<ci> Prb </ci>
+</apply>
+</apply>
+<cn> 2 </cn>
+</apply>
+</apply>
+<cn> 0.5 </cn>
+</apply>
+</apply>
+<apply>
+<times/>
+<cn> 2 </cn>
+<apply>
+<minus/>
+<cn> 1 </cn>
+<apply>
+<times/>
+<cn> 4 </cn>
+<ci> KEQAK </ci>
+</apply>
+</apply>
+</apply>
+</apply>
+</math>
+</assignmentRule>
+</listOfRules>
+<listOfReactions>
+<reaction metaid="metaid_125" id="v1" name="v1" fast="false">
+<annotation>
+<celldesigner:extension>
+<celldesigner:name>v1</celldesigner:name>
+<celldesigner:reactionType>STATE_TRANSITION</celldesigner:reactionType>
+<celldesigner:baseReactants>
+<celldesigner:baseReactant species="GLCi" alias="sa8">
+<celldesigner:linkAnchor position="N"/>
+</celldesigner:baseReactant>
+</celldesigner:baseReactants>
+<celldesigner:baseProducts>
+<celldesigner:baseProduct species="G6P" alias="sa7">
+<celldesigner:linkAnchor position="ENE"/>
+</celldesigner:baseProduct>
+</celldesigner:baseProducts>
+<celldesigner:listOfReactantLinks>
+<celldesigner:reactantLink reactant="Prb" alias="sa19" targetLineIndex="-1,0">
+<celldesigner:linkAnchor position="SSW"/>
+<celldesigner:connectScheme connectPolicy="direct">
+<celldesigner:listOfLineDirection>
+<celldesigner:lineDirection index="0" value="unknown"/>
+</celldesigner:listOfLineDirection>
+</celldesigner:connectScheme>
+<celldesigner:line width="1.0" color="ff000000" type="Straight"/>
+</celldesigner:reactantLink>
+</celldesigner:listOfReactantLinks>
+<celldesigner:connectScheme connectPolicy="direct" rectangleIndex="1">
+<celldesigner:listOfLineDirection>
+<celldesigner:lineDirection index="0" value="unknown"/>
+<celldesigner:lineDirection index="1" value="unknown"/>
+<celldesigner:lineDirection index="2" value="unknown"/>
+</celldesigner:listOfLineDirection>
+</celldesigner:connectScheme>
+<celldesigner:editPoints>1.0365409542620823,0.14301586321832016 1.0365409542620823,0.14301586321832016</celldesigner:editPoints>
+<celldesigner:line width="1.0" color="ff000000"/>
+</celldesigner:extension>
+</annotation>
+<listOfReactants>
+<speciesReference metaid="metaid_122" species="GLCi">
+<annotation>
+<celldesigner:extension>
+<celldesigner:alias>sa8</celldesigner:alias>
+</celldesigner:extension>
+</annotation>
+</speciesReference>
+<speciesReference metaid="metaid_123" species="Prb">
+<annotation>
+<celldesigner:extension>
+<celldesigner:alias>sa19</celldesigner:alias>
+</celldesigner:extension>
+</annotation>
+</speciesReference>
+</listOfReactants>
+<listOfProducts>
+<speciesReference metaid="metaid_124" species="G6P">
+<annotation>
+<celldesigner:extension>
+<celldesigner:alias>sa7</celldesigner:alias>
+</celldesigner:extension>
+</annotation>
+</speciesReference>
+</listOfProducts>
+<kineticLaw metaid="CDMT00001">
+<math xmlns="http://www.w3.org/1998/Math/MathML">
+<apply>
+<divide/>
+<apply>
+<times/>
+<ci> VMAXHK </ci>
+<apply>
+<minus/>
+<apply>
+<divide/>
+<apply>
+<times/>
+<ci> GLCi </ci>
+<apply>
+<plus/>
+<apply>
+<minus/>
+<ci> SUMAXP </ci>
+</apply>
+<apply>
+<times/>
+<apply>
+<minus/>
+<cn type="integer"> 1 </cn>
+<apply>
+<times/>
+<cn type="integer"> 4 </cn>
+<ci> KEQAK </ci>
+</apply>
+</apply>
+<ci> Prb </ci>
+</apply>
+<apply>
+<power/>
+<apply>
+<plus/>
+<apply>
+<times/>
+<cn type="integer"> 4 </cn>
+<apply>
+<minus/>
+<cn type="integer"> 1 </cn>
+<apply>
+<times/>
+<cn type="integer"> 4 </cn>
+<ci> KEQAK </ci>
+</apply>
+</apply>
+<ci> KEQAK </ci>
+<apply>
+<power/>
+<ci> Prb </ci>
+<cn type="integer"> 2 </cn>
+</apply>
+</apply>
+<apply>
+<power/>
+<apply>
+<minus/>
+<ci> SUMAXP </ci>
+<apply>
+<times/>
+<apply>
+<minus/>
+<cn type="integer"> 1 </cn>
+<apply>
+<times/>
+<cn type="integer"> 4 </cn>
+<ci> KEQAK </ci>
+</apply>
+</apply>
+<ci> Prb </ci>
+</apply>
+</apply>
+<cn type="integer"> 2 </cn>
+</apply>
+</apply>
+<cn> 0.5 </cn>
+</apply>
+</apply>
+</apply>
+<apply>
+<times/>
+<cn type="integer"> 2 </cn>
+<apply>
+<minus/>
+<cn type="integer"> 1 </cn>
+<apply>
+<times/>
+<cn type="integer"> 4 </cn>
+<ci> KEQAK </ci>
+</apply>
+</apply>
+<ci> KMHKATP </ci>
+<ci> KMHKGLCi </ci>
+</apply>
+</apply>
+<apply>
+<divide/>
+<apply>
+<times/>
+<ci> G6P </ci>
+<apply>
+<minus/>
+<ci> Prb </ci>
+<apply>
+<divide/>
+<apply>
+<plus/>
+<apply>
+<minus/>
+<ci> SUMAXP </ci>
+</apply>
+<apply>
+<times/>
+<apply>
+<minus/>
+<cn type="integer"> 1 </cn>
+<apply>
+<times/>
+<cn type="integer"> 4 </cn>
+<ci> KEQAK </ci>
+</apply>
+</apply>
+<ci> Prb </ci>
+</apply>
+<apply>
+<power/>
+<apply>
+<plus/>
+<apply>
+<times/>
+<cn type="integer"> 4 </cn>
+<apply>
+<minus/>
+<cn type="integer"> 1 </cn>
+<apply>
+<times/>
+<cn type="integer"> 4 </cn>
+<ci> KEQAK </ci>
+</apply>
+</apply>
+<ci> KEQAK </ci>
+<apply>
+<power/>
+<ci> Prb </ci>
+<cn type="integer"> 2 </cn>
+</apply>
+</apply>
+<apply>
+<power/>
+<apply>
+<minus/>
+<ci> SUMAXP </ci>
+<apply>
+<times/>
+<apply>
+<minus/>
+<cn type="integer"> 1 </cn>
+<apply>
+<times/>
+<cn type="integer"> 4 </cn>
+<ci> KEQAK </ci>
+</apply>
+</apply>
+<ci> Prb </ci>
+</apply>
+</apply>
+<cn type="integer"> 2 </cn>
+</apply>
+</apply>
+<cn> 0.5 </cn>
+</apply>
+</apply>
+<apply>
+<minus/>
+<cn type="integer"> 1 </cn>
+<apply>
+<times/>
+<cn type="integer"> 4 </cn>
+<ci> KEQAK </ci>
+</apply>
+</apply>
+</apply>
+</apply>
+</apply>
+<apply>
+<times/>
+<ci> KEQHK </ci>
+<ci> KMHKATP </ci>
+<ci> KMHKGLCi </ci>
+</apply>
+</apply>
+</apply>
+</apply>
+<apply>
+<times/>
+<ci> compartment </ci>
+<apply>
+<plus/>
+<cn type="integer"> 1 </cn>
+<apply>
+<divide/>
+<ci> G6P </ci>
+<ci> KMHKG6P </ci>
+</apply>
+<apply>
+<divide/>
+<apply>
+<times/>
+<ci> wt </ci>
+<ci> G6P </ci>
+</apply>
+<ci> KiHKG6P </ci>
+</apply>
+<apply>
+<divide/>
+<ci> GLCi </ci>
+<ci> KMHKGLCi </ci>
+</apply>
+</apply>
+<apply>
+<plus/>
+<cn type="integer"> 1 </cn>
+<apply>
+<divide/>
+<apply>
+<plus/>
+<apply>
+<minus/>
+<ci> SUMAXP </ci>
+</apply>
+<apply>
+<times/>
+<apply>
+<minus/>
+<cn type="integer"> 1 </cn>
+<apply>
+<times/>
+<cn type="integer"> 4 </cn>
+<ci> KEQAK </ci>
+</apply>
+</apply>
+<ci> Prb </ci>
+</apply>
+<apply>
+<power/>
+<apply>
+<plus/>
+<apply>
+<times/>
+<cn type="integer"> 4 </cn>
+<apply>
+<minus/>
+<cn type="integer"> 1 </cn>
+<apply>
+<times/>
+<cn type="integer"> 4 </cn>
+<ci> KEQAK </ci>
+</apply>
+</apply>
+<ci> KEQAK </ci>
+<apply>
+<power/>
+<ci> Prb </ci>
+<cn type="integer"> 2 </cn>
+</apply>
+</apply>
+<apply>
+<power/>
+<apply>
+<minus/>
+<ci> SUMAXP </ci>
+<apply>
+<times/>
+<apply>
+<minus/>
+<cn type="integer"> 1 </cn>
+<apply>
+<times/>
+<cn type="integer"> 4 </cn>
+<ci> KEQAK </ci>
+</apply>
+</apply>
+<ci> Prb </ci>
+</apply>
+</apply>
+<cn type="integer"> 2 </cn>
+</apply>
+</apply>
+<cn> 0.5 </cn>
+</apply>
+</apply>
+<apply>
+<times/>
+<cn type="integer"> 2 </cn>
+<apply>
+<minus/>
+<cn type="integer"> 1 </cn>
+<apply>
+<times/>
+<cn type="integer"> 4 </cn>
+<ci> KEQAK </ci>
+</apply>
+</apply>
+<ci> KMHKATP </ci>
+</apply>
+</apply>
+<apply>
+<divide/>
+<apply>
+<minus/>
+<ci> Prb </ci>
+<apply>
+<divide/>
+<apply>
+<plus/>
+<apply>
+<minus/>
+<ci> SUMAXP </ci>
+</apply>
+<apply>
+<times/>
+<apply>
+<minus/>
+<cn type="integer"> 1 </cn>
+<apply>
+<times/>
+<cn type="integer"> 4 </cn>
+<ci> KEQAK </ci>
+</apply>
+</apply>
+<ci> Prb </ci>
+</apply>
+<apply>
+<power/>
+<apply>
+<plus/>
+<apply>
+<times/>
+<cn type="integer"> 4 </cn>
+<apply>
+<minus/>
+<cn type="integer"> 1 </cn>
+<apply>
+<times/>
+<cn type="integer"> 4 </cn>
+<ci> KEQAK </ci>
+</apply>
+</apply>
+<ci> KEQAK </ci>
+<apply>
+<power/>
+<ci> Prb </ci>
+<cn type="integer"> 2 </cn>
+</apply>
+</apply>
+<apply>
+<power/>
+<apply>
+<minus/>
+<ci> SUMAXP </ci>
+<apply>
+<times/>
+<apply>
+<minus/>
+<cn type="integer"> 1 </cn>
+<apply>
+<times/>
+<cn type="integer"> 4 </cn>
+<ci> KEQAK </ci>
+</apply>
+</apply>
+<ci> Prb </ci>
+</apply>
+</apply>
+<cn type="integer"> 2 </cn>
+</apply>
+</apply>
+<cn> 0.5 </cn>
+</apply>
+</apply>
+<apply>
+<minus/>
+<cn type="integer"> 1 </cn>
+<apply>
+<times/>
+<cn type="integer"> 4 </cn>
+<ci> KEQAK </ci>
+</apply>
+</apply>
+</apply>
+</apply>
+<ci> KMHKADP </ci>
+</apply>
+</apply>
+</apply>
+</apply>
+</math>
+</kineticLaw>
+</reaction>
+<reaction metaid="metaid_128" id="v10" name="v10" fast="false">
+<annotation>
+<celldesigner:extension>
+<celldesigner:name>v10</celldesigner:name>
+<celldesigner:reactionType>STATE_TRANSITION</celldesigner:reactionType>
+<celldesigner:baseReactants>
+<celldesigner:baseReactant species="P2G" alias="sa14">
+<celldesigner:linkAnchor position="N"/>
+</celldesigner:baseReactant>
+</celldesigner:baseReactants>
+<celldesigner:baseProducts>
+<celldesigner:baseProduct species="PEP" alias="sa16">
+<celldesigner:linkAnchor position="SE"/>
+</celldesigner:baseProduct>
+</celldesigner:baseProducts>
+<celldesigner:connectScheme connectPolicy="direct" rectangleIndex="1">
+<celldesigner:listOfLineDirection>
+<celldesigner:lineDirection index="0" value="unknown"/>
+<celldesigner:lineDirection index="1" value="unknown"/>
+<celldesigner:lineDirection index="2" value="unknown"/>
+</celldesigner:listOfLineDirection>
+</celldesigner:connectScheme>
+<celldesigner:editPoints>0.46584845250800555,-0.19370330843116434 0.46584845250800555,-0.19370330843116434</celldesigner:editPoints>
+<celldesigner:line width="1.0" color="ff000000"/>
+</celldesigner:extension>
+</annotation>
+<listOfReactants>
+<speciesReference metaid="metaid_126" species="P2G">
+<annotation>
+<celldesigner:extension>
+<celldesigner:alias>sa14</celldesigner:alias>
+</celldesigner:extension>
+</annotation>
+</speciesReference>
+</listOfReactants>
+<listOfProducts>
+<speciesReference metaid="metaid_127" species="PEP">
+<annotation>
+<celldesigner:extension>
+<celldesigner:alias>sa16</celldesigner:alias>
+</celldesigner:extension>
+</annotation>
+</speciesReference>
+</listOfProducts>
+<kineticLaw metaid="CDMT00002">
+<math xmlns="http://www.w3.org/1998/Math/MathML">
+<apply>
+<divide/>
+<apply>
+<times/>
+<ci> VmENO </ci>
+<apply>
+<minus/>
+<ci> P2G </ci>
+<apply>
+<divide/>
+<ci> PEP </ci>
+<ci> KeqENO </ci>
+</apply>
+</apply>
+</apply>
+<apply>
+<times/>
+<ci> compartment </ci>
+<ci> KmENOP2G </ci>
+<apply>
+<plus/>
+<cn type="integer"> 1 </cn>
+<apply>
+<divide/>
+<ci> P2G </ci>
+<ci> KmENOP2G </ci>
+</apply>
+<apply>
+<divide/>
+<ci> PEP </ci>
+<ci> KmENOPEP </ci>
+</apply>
+</apply>
+</apply>
+</apply>
+</math>
+</kineticLaw>
+</reaction>
+<reaction metaid="metaid_133" id="v11" name="v11" fast="false">
+<annotation>
+<celldesigner:extension>
+<celldesigner:name>v11</celldesigner:name>
+<celldesigner:reactionType>STATE_TRANSITION</celldesigner:reactionType>
+<celldesigner:baseReactants>
+<celldesigner:baseReactant species="PEP" alias="sa16">
+<celldesigner:linkAnchor position="NW"/>
+</celldesigner:baseReactant>
+</celldesigner:baseReactants>
+<celldesigner:baseProducts>
+<celldesigner:baseProduct species="Prb" alias="sa19">
+<celldesigner:linkAnchor position="ENE"/>
+</celldesigner:baseProduct>
+</celldesigner:baseProducts>
+<celldesigner:listOfProductLinks>
+<celldesigner:productLink product="PYR" alias="sa18" targetLineIndex="-1,1">
+<celldesigner:linkAnchor position="WNW"/>
+<celldesigner:connectScheme connectPolicy="direct">
+<celldesigner:listOfLineDirection>
+<celldesigner:lineDirection index="0" value="unknown"/>
+</celldesigner:listOfLineDirection>
+</celldesigner:connectScheme>
+<celldesigner:line width="1.0" color="ff000000" type="Straight"/>
+</celldesigner:productLink>
+</celldesigner:listOfProductLinks>
+<celldesigner:connectScheme connectPolicy="direct" rectangleIndex="1">
+<celldesigner:listOfLineDirection>
+<celldesigner:lineDirection index="0" value="unknown"/>
+<celldesigner:lineDirection index="1" value="unknown"/>
+<celldesigner:lineDirection index="2" value="unknown"/>
+</celldesigner:listOfLineDirection>
+</celldesigner:connectScheme>
+<celldesigner:editPoints>0.548621190130623,0.76632801161103 0.548621190130623,0.76632801161103</celldesigner:editPoints>
+<celldesigner:line width="1.0" color="ff000000"/>
+<celldesigner:listOfModification>
+<celldesigner:modification type="CATALYSIS" modifiers="F16P" aliases="sa5" targetLineIndex="-1,3">
+<celldesigner:connectScheme connectPolicy="direct">
+<celldesigner:listOfLineDirection>
+<celldesigner:lineDirection index="0" value="unknown"/>
+</celldesigner:listOfLineDirection>
+</celldesigner:connectScheme>
+<celldesigner:linkTarget species="F16P" alias="sa5">
+<celldesigner:linkAnchor position="NNE"/>
+</celldesigner:linkTarget>
+<celldesigner:line width="1.0" color="ff000000"/>
+</celldesigner:modification>
+</celldesigner:listOfModification>
+</celldesigner:extension>
+</annotation>
+<listOfReactants>
+<speciesReference metaid="metaid_129" species="PEP">
+<annotation>
+<celldesigner:extension>
+<celldesigner:alias>sa16</celldesigner:alias>
+</celldesigner:extension>
+</annotation>
+</speciesReference>
+</listOfReactants>
+<listOfProducts>
+<speciesReference metaid="metaid_130" species="Prb">
+<annotation>
+<celldesigner:extension>
+<celldesigner:alias>sa19</celldesigner:alias>
+</celldesigner:extension>
+</annotation>
+</speciesReference>
+<speciesReference metaid="metaid_131" species="PYR">
+<annotation>
+<celldesigner:extension>
+<celldesigner:alias>sa18</celldesigner:alias>
+</celldesigner:extension>
+</annotation>
+</speciesReference>
+</listOfProducts>
+<listOfModifiers>
+<modifierSpeciesReference metaid="metaid_132" species="F16P">
+<annotation>
+<celldesigner:extension>
+<celldesigner:alias>sa5</celldesigner:alias>
+</celldesigner:extension>
+</annotation>
+</modifierSpeciesReference>
+</listOfModifiers>
+<kineticLaw metaid="CDMT00003">
+<math xmlns="http://www.w3.org/1998/Math/MathML">
+<apply>
+<divide/>
+<apply>
+<times/>
+<ci> VmPYK </ci>
+<ci> PEP </ci>
+<apply>
+<power/>
+<apply>
+<plus/>
+<cn type="integer"> 1 </cn>
+<apply>
+<divide/>
+<ci> PEP </ci>
+<ci> KmPYKPEP </ci>
+</apply>
+</apply>
+<apply>
+<plus/>
+<apply>
+<minus/>
+<cn type="integer"> 1 </cn>
+</apply>
+<ci> npyk </ci>
+</apply>
+</apply>
+<apply>
+<minus/>
+<ci> Prb </ci>
+<apply>
+<divide/>
+<apply>
+<plus/>
+<apply>
+<minus/>
+<ci> SUMAXP </ci>
+</apply>
+<apply>
+<times/>
+<apply>
+<minus/>
+<cn type="integer"> 1 </cn>
+<apply>
+<times/>
+<cn type="integer"> 4 </cn>
+<ci> KeqAK </ci>
+</apply>
+</apply>
+<ci> Prb </ci>
+</apply>
+<apply>
+<power/>
+<apply>
+<plus/>
+<apply>
+<times/>
+<cn type="integer"> 4 </cn>
+<apply>
+<minus/>
+<cn type="integer"> 1 </cn>
+<apply>
+<times/>
+<cn type="integer"> 4 </cn>
+<ci> KeqAK </ci>
+</apply>
+</apply>
+<ci> KeqAK </ci>
+<apply>
+<power/>
+<ci> Prb </ci>
+<cn type="integer"> 2 </cn>
+</apply>
+</apply>
+<apply>
+<power/>
+<apply>
+<minus/>
+<ci> SUMAXP </ci>
+<apply>
+<times/>
+<apply>
+<minus/>
+<cn type="integer"> 1 </cn>
+<apply>
+<times/>
+<cn type="integer"> 4 </cn>
+<ci> KeqAK </ci>
+</apply>
+</apply>
+<ci> Prb </ci>
+</apply>
+</apply>
+<cn type="integer"> 2 </cn>
+</apply>
+</apply>
+<cn> 0.5 </cn>
+</apply>
+</apply>
+<apply>
+<minus/>
+<cn type="integer"> 1 </cn>
+<apply>
+<times/>
+<cn type="integer"> 4 </cn>
+<ci> KeqAK </ci>
+</apply>
+</apply>
+</apply>
+</apply>
+</apply>
+<apply>
+<times/>
+<ci> compartment </ci>
+<ci> KmPYKPEP </ci>
+<apply>
+<minus/>
+<apply>
+<plus/>
+<ci> KmPYKADP </ci>
+<ci> Prb </ci>
+</apply>
+<apply>
+<divide/>
+<apply>
+<plus/>
+<apply>
+<minus/>
+<ci> SUMAXP </ci>
+</apply>
+<apply>
+<times/>
+<apply>
+<minus/>
+<cn type="integer"> 1 </cn>
+<apply>
+<times/>
+<cn type="integer"> 4 </cn>
+<ci> KeqAK </ci>
+</apply>
+</apply>
+<ci> Prb </ci>
+</apply>
+<apply>
+<power/>
+<apply>
+<plus/>
+<apply>
+<times/>
+<cn type="integer"> 4 </cn>
+<apply>
+<minus/>
+<cn type="integer"> 1 </cn>
+<apply>
+<times/>
+<cn type="integer"> 4 </cn>
+<ci> KeqAK </ci>
+</apply>
+</apply>
+<ci> KeqAK </ci>
+<apply>
+<power/>
+<ci> Prb </ci>
+<cn type="integer"> 2 </cn>
+</apply>
+</apply>
+<apply>
+<power/>
+<apply>
+<minus/>
+<ci> SUMAXP </ci>
+<apply>
+<times/>
+<apply>
+<minus/>
+<cn type="integer"> 1 </cn>
+<apply>
+<times/>
+<cn type="integer"> 4 </cn>
+<ci> KeqAK </ci>
+</apply>
+</apply>
+<ci> Prb </ci>
+</apply>
+</apply>
+<cn type="integer"> 2 </cn>
+</apply>
+</apply>
+<cn> 0.5 </cn>
+</apply>
+</apply>
+<apply>
+<minus/>
+<cn type="integer"> 1 </cn>
+<apply>
+<times/>
+<cn type="integer"> 4 </cn>
+<ci> KeqAK </ci>
+</apply>
+</apply>
+</apply>
+</apply>
+<apply>
+<plus/>
+<apply>
+<power/>
+<apply>
+<plus/>
+<cn type="integer"> 1 </cn>
+<apply>
+<divide/>
+<ci> PEP </ci>
+<ci> KmPYKPEP </ci>
+</apply>
+</apply>
+<ci> npyk </ci>
+</apply>
+<apply>
+<times/>
+<ci> L0PYK </ci>
+<apply>
+<power/>
+<apply>
+<divide/>
+<apply>
+<plus/>
+<cn type="integer"> 1 </cn>
+<apply>
+<divide/>
+<apply>
+<plus/>
+<apply>
+<minus/>
+<ci> SUMAXP </ci>
+</apply>
+<apply>
+<times/>
+<apply>
+<minus/>
+<cn type="integer"> 1 </cn>
+<apply>
+<times/>
+<cn type="integer"> 4 </cn>
+<ci> KeqAK </ci>
+</apply>
+</apply>
+<ci> Prb </ci>
+</apply>
+<apply>
+<power/>
+<apply>
+<plus/>
+<apply>
+<times/>
+<cn type="integer"> 4 </cn>
+<apply>
+<minus/>
+<cn type="integer"> 1 </cn>
+<apply>
+<times/>
+<cn type="integer"> 4 </cn>
+<ci> KeqAK </ci>
+</apply>
+</apply>
+<ci> KeqAK </ci>
+<apply>
+<power/>
+<ci> Prb </ci>
+<cn type="integer"> 2 </cn>
+</apply>
+</apply>
+<apply>
+<power/>
+<apply>
+<minus/>
+<ci> SUMAXP </ci>
+<apply>
+<times/>
+<apply>
+<minus/>
+<cn type="integer"> 1 </cn>
+<apply>
+<times/>
+<cn type="integer"> 4 </cn>
+<ci> KeqAK </ci>
+</apply>
+</apply>
+<ci> Prb </ci>
+</apply>
+</apply>
+<cn type="integer"> 2 </cn>
+</apply>
+</apply>
+<cn> 0.5 </cn>
+</apply>
+</apply>
+<apply>
+<times/>
+<cn type="integer"> 2 </cn>
+<apply>
+<minus/>
+<cn type="integer"> 1 </cn>
+<apply>
+<times/>
+<cn type="integer"> 4 </cn>
+<ci> KeqAK </ci>
+</apply>
+</apply>
+<ci> KmPYKATP </ci>
+</apply>
+</apply>
+</apply>
+<apply>
+<plus/>
+<cn type="integer"> 1 </cn>
+<apply>
+<divide/>
+<ci> F16P </ci>
+<ci> KmPYKF16P </ci>
+</apply>
+</apply>
+</apply>
+<ci> npyk </ci>
+</apply>
+</apply>
+</apply>
+</apply>
+</apply>
+</math>
+</kineticLaw>
+</reaction>
+<reaction metaid="metaid_137" id="v12" name="v12" fast="false">
+<annotation>
+<celldesigner:extension>
+<celldesigner:name>v12</celldesigner:name>
+<celldesigner:reactionType>STATE_TRANSITION</celldesigner:reactionType>
+<celldesigner:baseReactants>
+<celldesigner:baseReactant species="PYR" alias="sa18">
+<celldesigner:linkAnchor position="NNW"/>
+</celldesigner:baseReactant>
+</celldesigner:baseReactants>
+<celldesigner:baseProducts>
+<celldesigner:baseProduct species="ACE" alias="sa0">
+<celldesigner:linkAnchor position="S"/>
+</celldesigner:baseProduct>
+</celldesigner:baseProducts>
+<celldesigner:listOfProductLinks>
+<celldesigner:productLink product="CO2" alias="sa3" targetLineIndex="-1,1">
+<celldesigner:linkAnchor position="SW"/>
+<celldesigner:connectScheme connectPolicy="direct">
+<celldesigner:listOfLineDirection>
+<celldesigner:lineDirection index="0" value="unknown"/>
+</celldesigner:listOfLineDirection>
+</celldesigner:connectScheme>
+<celldesigner:line width="1.0" color="ff000000" type="Straight"/>
+</celldesigner:productLink>
+</celldesigner:listOfProductLinks>
+<celldesigner:connectScheme connectPolicy="direct" rectangleIndex="1">
+<celldesigner:listOfLineDirection>
+<celldesigner:lineDirection index="0" value="unknown"/>
+<celldesigner:lineDirection index="1" value="unknown"/>
+<celldesigner:lineDirection index="2" value="unknown"/>
+</celldesigner:listOfLineDirection>
+</celldesigner:connectScheme>
+<celldesigner:editPoints>0.17511622758468004,0.12131945981846393 0.17511622758468004,0.12131945981846393</celldesigner:editPoints>
+<celldesigner:line width="1.0" color="ff000000"/>
+</celldesigner:extension>
+</annotation>
+<listOfReactants>
+<speciesReference metaid="metaid_134" species="PYR">
+<annotation>
+<celldesigner:extension>
+<celldesigner:alias>sa18</celldesigner:alias>
+</celldesigner:extension>
+</annotation>
+</speciesReference>
+</listOfReactants>
+<listOfProducts>
+<speciesReference metaid="metaid_135" species="ACE">
+<annotation>
+<celldesigner:extension>
+<celldesigner:alias>sa0</celldesigner:alias>
+</celldesigner:extension>
+</annotation>
+</speciesReference>
+<speciesReference metaid="metaid_136" species="CO2">
+<annotation>
+<celldesigner:extension>
+<celldesigner:alias>sa3</celldesigner:alias>
+</celldesigner:extension>
+</annotation>
+</speciesReference>
+</listOfProducts>
+<kineticLaw metaid="CDMT00004">
+<math xmlns="http://www.w3.org/1998/Math/MathML">
+<apply>
+<divide/>
+<apply>
+<times/>
+<ci> VmPDC </ci>
+<apply>
+<power/>
+<ci> PYR </ci>
+<ci> nPDC </ci>
+</apply>
+</apply>
+<apply>
+<times/>
+<ci> compartment </ci>
+<apply>
+<power/>
+<ci> KmPDCPYR </ci>
+<ci> nPDC </ci>
+</apply>
+<apply>
+<plus/>
+<cn type="integer"> 1 </cn>
+<apply>
+<divide/>
+<apply>
+<power/>
+<ci> PYR </ci>
+<ci> nPDC </ci>
+</apply>
+<apply>
+<power/>
+<ci> KmPDCPYR </ci>
+<ci> nPDC </ci>
+</apply>
+</apply>
+</apply>
+</apply>
+</apply>
+</math>
+</kineticLaw>
+</reaction>
+<reaction metaid="metaid_142" id="v13" name="v13" fast="false">
+<annotation>
+<celldesigner:extension>
+<celldesigner:name>v13</celldesigner:name>
+<celldesigner:reactionType>STATE_TRANSITION</celldesigner:reactionType>
+<celldesigner:baseReactants>
+<celldesigner:baseReactant species="ACE" alias="sa0">
+<celldesigner:linkAnchor position="W"/>
+</celldesigner:baseReactant>
+</celldesigner:baseReactants>
+<celldesigner:baseProducts>
+<celldesigner:baseProduct species="SUCC" alias="sa20">
+<celldesigner:linkAnchor position="SSW"/>
+</celldesigner:baseProduct>
+</celldesigner:baseProducts>
+<celldesigner:listOfReactantLinks>
+<celldesigner:reactantLink reactant="NAD" alias="sa12" targetLineIndex="-1,0">
+<celldesigner:linkAnchor position="S"/>
+<celldesigner:connectScheme connectPolicy="direct">
+<celldesigner:listOfLineDirection>
+<celldesigner:lineDirection index="0" value="unknown"/>
+</celldesigner:listOfLineDirection>
+</celldesigner:connectScheme>
+<celldesigner:line width="1.0" color="ff000000" type="Straight"/>
+</celldesigner:reactantLink>
+</celldesigner:listOfReactantLinks>
+<celldesigner:listOfProductLinks>
+<celldesigner:productLink product="NADH" alias="sa13" targetLineIndex="-1,1">
+<celldesigner:linkAnchor position="S"/>
+<celldesigner:connectScheme connectPolicy="direct">
+<celldesigner:listOfLineDirection>
+<celldesigner:lineDirection index="0" value="unknown"/>
+</celldesigner:listOfLineDirection>
+</celldesigner:connectScheme>
+<celldesigner:line width="1.0" color="ff000000" type="Straight"/>
+</celldesigner:productLink>
+</celldesigner:listOfProductLinks>
+<celldesigner:connectScheme connectPolicy="direct" rectangleIndex="1">
+<celldesigner:listOfLineDirection>
+<celldesigner:lineDirection index="0" value="unknown"/>
+<celldesigner:lineDirection index="1" value="unknown"/>
+<celldesigner:lineDirection index="2" value="unknown"/>
+</celldesigner:listOfLineDirection>
+</celldesigner:connectScheme>
+<celldesigner:editPoints>-0.11956329300678625,-0.09306580112127527 -0.11956329300678625,-0.09306580112127527</celldesigner:editPoints>
+<celldesigner:line width="1.0" color="ff000000"/>
+</celldesigner:extension>
+</annotation>
+<listOfReactants>
+<speciesReference metaid="metaid_138" species="ACE" stoichiometry="2">
+<annotation>
+<celldesigner:extension>
+<celldesigner:alias>sa0</celldesigner:alias>
+</celldesigner:extension>
+</annotation>
+</speciesReference>
+<speciesReference metaid="metaid_139" species="NAD" stoichiometry="3">
+<annotation>
+<celldesigner:extension>
+<celldesigner:alias>sa12</celldesigner:alias>
+</celldesigner:extension>
+</annotation>
+</speciesReference>
+</listOfReactants>
+<listOfProducts>
+<speciesReference metaid="metaid_140" species="SUCC">
+<annotation>
+<celldesigner:extension>
+<celldesigner:alias>sa20</celldesigner:alias>
+</celldesigner:extension>
+</annotation>
+</speciesReference>
+<speciesReference metaid="metaid_141" species="NADH" stoichiometry="3">
+<annotation>
+<celldesigner:extension>
+<celldesigner:alias>sa13</celldesigner:alias>
+</celldesigner:extension>
+</annotation>
+</speciesReference>
+</listOfProducts>
+<kineticLaw metaid="CDMT00005">
+<math xmlns="http://www.w3.org/1998/Math/MathML">
+<apply>
+<divide/>
+<apply>
+<times/>
+<ci> KSUCC </ci>
+<ci> ACE </ci>
+</apply>
+<ci> compartment </ci>
+</apply>
+</math>
+</kineticLaw>
+</reaction>
+<reaction metaid="metaid_145" id="v14" name="v14" fast="false">
+<annotation>
+<celldesigner:extension>
+<celldesigner:name>v14</celldesigner:name>
+<celldesigner:reactionType>STATE_TRANSITION</celldesigner:reactionType>
+<celldesigner:baseReactants>
+<celldesigner:baseReactant species="GLCo" alias="sa9">
+<celldesigner:linkAnchor position="NW"/>
+</celldesigner:baseReactant>
+</celldesigner:baseReactants>
+<celldesigner:baseProducts>
+<celldesigner:baseProduct species="GLCi" alias="sa8">
+<celldesigner:linkAnchor position="SSE"/>
+</celldesigner:baseProduct>
+</celldesigner:baseProducts>
+<celldesigner:connectScheme connectPolicy="direct" rectangleIndex="1">
+<celldesigner:listOfLineDirection>
+<celldesigner:lineDirection index="0" value="unknown"/>
+<celldesigner:lineDirection index="1" value="unknown"/>
+<celldesigner:lineDirection index="2" value="unknown"/>
+</celldesigner:listOfLineDirection>
+</celldesigner:connectScheme>
+<celldesigner:editPoints>0.5497771173848456,0.11292719167904863 0.5497771173848456,0.11292719167904863</celldesigner:editPoints>
+<celldesigner:line width="1.0" color="ff000000"/>
+</celldesigner:extension>
+</annotation>
+<listOfReactants>
+<speciesReference metaid="metaid_143" species="GLCo">
+<annotation>
+<celldesigner:extension>
+<celldesigner:alias>sa9</celldesigner:alias>
+</celldesigner:extension>
+</annotation>
+</speciesReference>
+</listOfReactants>
+<listOfProducts>
+<speciesReference metaid="metaid_144" species="GLCi">
+<annotation>
+<celldesigner:extension>
+<celldesigner:alias>sa8</celldesigner:alias>
+</celldesigner:extension>
+</annotation>
+</speciesReference>
+</listOfProducts>
+<kineticLaw metaid="CDMT00006">
+<math xmlns="http://www.w3.org/1998/Math/MathML">
+<apply>
+<divide/>
+<apply>
+<times/>
+<ci> VmGLT </ci>
+<apply>
+<minus/>
+<ci> GLCo </ci>
+<apply>
+<divide/>
+<ci> GLCi </ci>
+<ci> KeqGLT </ci>
+</apply>
+</apply>
+</apply>
+<apply>
+<times/>
+<ci> compartment </ci>
+<ci> KmGLTGLCo </ci>
+<apply>
+<plus/>
+<cn type="integer"> 1 </cn>
+<apply>
+<divide/>
+<ci> GLCo </ci>
+<ci> KmGLTGLCo </ci>
+</apply>
+<apply>
+<divide/>
+<ci> GLCi </ci>
+<ci> KmGLTGLCi </ci>
+</apply>
+<apply>
+<divide/>
+<apply>
+<times/>
+<cn> 0.91 </cn>
+<ci> GLCo </ci>
+<ci> GLCi </ci>
+</apply>
+<apply>
+<times/>
+<ci> KmGLTGLCi </ci>
+<ci> KmGLTGLCo </ci>
+</apply>
+</apply>
+</apply>
+</apply>
+</apply>
+</math>
+</kineticLaw>
+</reaction>
+<reaction metaid="metaid_150" id="v15" name="v15" fast="false">
+<annotation>
+<celldesigner:extension>
+<celldesigner:name>v15</celldesigner:name>
+<celldesigner:reactionType>STATE_TRANSITION</celldesigner:reactionType>
+<celldesigner:baseReactants>
+<celldesigner:baseReactant species="ACE" alias="sa0">
+<celldesigner:linkAnchor position="NNW"/>
+</celldesigner:baseReactant>
+</celldesigner:baseReactants>
+<celldesigner:baseProducts>
+<celldesigner:baseProduct species="ETOH" alias="sa4">
+<celldesigner:linkAnchor position="S"/>
+</celldesigner:baseProduct>
+</celldesigner:baseProducts>
+<celldesigner:listOfReactantLinks>
+<celldesigner:reactantLink reactant="NADH" alias="sa13" targetLineIndex="-1,0">
+<celldesigner:linkAnchor position="NNE"/>
+<celldesigner:connectScheme connectPolicy="direct">
+<celldesigner:listOfLineDirection>
+<celldesigner:lineDirection index="0" value="unknown"/>
+</celldesigner:listOfLineDirection>
+</celldesigner:connectScheme>
+<celldesigner:line width="1.0" color="ff000000" type="Straight"/>
+</celldesigner:reactantLink>
+</celldesigner:listOfReactantLinks>
+<celldesigner:listOfProductLinks>
+<celldesigner:productLink product="NAD" alias="sa12" targetLineIndex="-1,1">
+<celldesigner:linkAnchor position="N"/>
+<celldesigner:connectScheme connectPolicy="direct">
+<celldesigner:listOfLineDirection>
+<celldesigner:lineDirection index="0" value="unknown"/>
+</celldesigner:listOfLineDirection>
+</celldesigner:connectScheme>
+<celldesigner:line width="1.0" color="ff000000" type="Straight"/>
+</celldesigner:productLink>
+</celldesigner:listOfProductLinks>
+<celldesigner:connectScheme connectPolicy="direct" rectangleIndex="1">
+<celldesigner:listOfLineDirection>
+<celldesigner:lineDirection index="0" value="unknown"/>
+<celldesigner:lineDirection index="1" value="unknown"/>
+<celldesigner:lineDirection index="2" value="unknown"/>
+</celldesigner:listOfLineDirection>
+</celldesigner:connectScheme>
+<celldesigner:editPoints>0.8684757881052976,0.004842378940526526 0.8684757881052976,0.004842378940526526</celldesigner:editPoints>
+<celldesigner:line width="1.0" color="ff000000"/>
+</celldesigner:extension>
+</annotation>
+<listOfReactants>
+<speciesReference metaid="metaid_146" species="ACE">
+<annotation>
+<celldesigner:extension>
+<celldesigner:alias>sa0</celldesigner:alias>
+</celldesigner:extension>
+</annotation>
+</speciesReference>
+<speciesReference metaid="metaid_147" species="NADH">
+<annotation>
+<celldesigner:extension>
+<celldesigner:alias>sa13</celldesigner:alias>
+</celldesigner:extension>
+</annotation>
+</speciesReference>
+</listOfReactants>
+<listOfProducts>
+<speciesReference metaid="metaid_148" species="ETOH">
+<annotation>
+<celldesigner:extension>
+<celldesigner:alias>sa4</celldesigner:alias>
+</celldesigner:extension>
+</annotation>
+</speciesReference>
+<speciesReference metaid="metaid_149" species="NAD">
+<annotation>
+<celldesigner:extension>
+<celldesigner:alias>sa12</celldesigner:alias>
+</celldesigner:extension>
+</annotation>
+</speciesReference>
+</listOfProducts>
+<kineticLaw metaid="CDMT00007">
+<math xmlns="http://www.w3.org/1998/Math/MathML">
+<apply>
+<minus/>
+<apply>
+<divide/>
+<apply>
+<times/>
+<ci> VmADH </ci>
+<apply>
+<minus/>
+<apply>
+<times/>
+<ci> ETOH </ci>
+<apply>
+<minus/>
+<ci> NADt </ci>
+<ci> NADH </ci>
+</apply>
+</apply>
+<apply>
+<divide/>
+<apply>
+<times/>
+<ci> ACE </ci>
+<ci> NADH </ci>
+</apply>
+<ci> KeqADH </ci>
+</apply>
+</apply>
+</apply>
+<apply>
+<times/>
+<ci> compartment </ci>
+<ci> KiADHNAD </ci>
+<ci> KmADHETOH </ci>
+<apply>
+<plus/>
+<cn type="integer"> 1 </cn>
+<apply>
+<divide/>
+<apply>
+<times/>
+<ci> ETOH </ci>
+<ci> KmADHNAD </ci>
+</apply>
+<apply>
+<times/>
+<ci> KiADHNAD </ci>
+<ci> KmADHETOH </ci>
+</apply>
+</apply>
+<apply>
+<divide/>
+<apply>
+<times/>
+<ci> KmADHNADH </ci>
+<ci> ACE </ci>
+</apply>
+<apply>
+<times/>
+<ci> KiADHNADH </ci>
+<ci> KmADHACE </ci>
+</apply>
+</apply>
+<apply>
+<divide/>
+<apply>
+<minus/>
+<ci> NADt </ci>
+<ci> NADH </ci>
+</apply>
+<ci> KiADHNAD </ci>
+</apply>
+<apply>
+<divide/>
+<apply>
+<times/>
+<ci> ETOH </ci>
+<apply>
+<minus/>
+<ci> NADt </ci>
+<ci> NADH </ci>
+</apply>
+</apply>
+<apply>
+<times/>
+<ci> KiADHNAD </ci>
+<ci> KmADHETOH </ci>
+</apply>
+</apply>
+<apply>
+<divide/>
+<apply>
+<times/>
+<ci> ETOH </ci>
+<ci> ACE </ci>
+<apply>
+<minus/>
+<ci> NADt </ci>
+<ci> NADH </ci>
+</apply>
+</apply>
+<apply>
+<times/>
+<ci> KiADHACE </ci>
+<ci> KiADHNAD </ci>
+<ci> KmADHETOH </ci>
+</apply>
+</apply>
+<apply>
+<divide/>
+<apply>
+<times/>
+<ci> KmADHNADH </ci>
+<ci> ACE </ci>
+<apply>
+<minus/>
+<ci> NADt </ci>
+<ci> NADH </ci>
+</apply>
+</apply>
+<apply>
+<times/>
+<ci> KiADHNAD </ci>
+<ci> KiADHNADH </ci>
+<ci> KmADHACE </ci>
+</apply>
+</apply>
+<apply>
+<divide/>
+<ci> NADH </ci>
+<ci> KiADHNADH </ci>
+</apply>
+<apply>
+<divide/>
+<apply>
+<times/>
+<ci> ETOH </ci>
+<ci> KmADHNAD </ci>
+<ci> NADH </ci>
+</apply>
+<apply>
+<times/>
+<ci> KiADHNAD </ci>
+<ci> KiADHNADH </ci>
+<ci> KmADHETOH </ci>
+</apply>
+</apply>
+<apply>
+<divide/>
+<apply>
+<times/>
+<ci> ACE </ci>
+<ci> NADH </ci>
+</apply>
+<apply>
+<times/>
+<ci> KiADHNADH </ci>
+<ci> KmADHACE </ci>
+</apply>
+</apply>
+<apply>
+<divide/>
+<apply>
+<times/>
+<ci> ETOH </ci>
+<ci> ACE </ci>
+<ci> NADH </ci>
+</apply>
+<apply>
+<times/>
+<ci> KiADHETOH </ci>
+<ci> KiADHNADH </ci>
+<ci> KmADHACE </ci>
+</apply>
+</apply>
+</apply>
+</apply>
+</apply>
+</apply>
+</math>
+</kineticLaw>
+</reaction>
+<reaction metaid="metaid_156" id="v16" name="v16" fast="false">
+<annotation>
+<celldesigner:extension>
+<celldesigner:name>v16</celldesigner:name>
+<celldesigner:reactionType>STATE_TRANSITION</celldesigner:reactionType>
+<celldesigner:baseReactants>
+<celldesigner:baseReactant species="NADH" alias="sa13">
+<celldesigner:linkAnchor position="SW"/>
+</celldesigner:baseReactant>
+</celldesigner:baseReactants>
+<celldesigner:baseProducts>
+<celldesigner:baseProduct species="PHOS" alias="sa17">
+<celldesigner:linkAnchor position="NNE"/>
+</celldesigner:baseProduct>
+</celldesigner:baseProducts>
+<celldesigner:listOfReactantLinks>
+<celldesigner:reactantLink reactant="TRIO" alias="sa21" targetLineIndex="-1,0">
+<celldesigner:linkAnchor position="N"/>
+<celldesigner:connectScheme connectPolicy="direct">
+<celldesigner:listOfLineDirection>
+<celldesigner:lineDirection index="0" value="unknown"/>
+</celldesigner:listOfLineDirection>
+</celldesigner:connectScheme>
+<celldesigner:line width="1.0" color="ff000000" type="Straight"/>
+</celldesigner:reactantLink>
+</celldesigner:listOfReactantLinks>
+<celldesigner:listOfProductLinks>
+<celldesigner:productLink product="GLY" alias="sa10" targetLineIndex="-1,1">
+<celldesigner:linkAnchor position="SE"/>
+<celldesigner:connectScheme connectPolicy="direct">
+<celldesigner:listOfLineDirection>
+<celldesigner:lineDirection index="0" value="unknown"/>
+</celldesigner:listOfLineDirection>
+</celldesigner:connectScheme>
+<celldesigner:line width="1.0" color="ff000000" type="Straight"/>
+</celldesigner:productLink>
+<celldesigner:productLink product="NAD" alias="sa12" targetLineIndex="-1,1">
+<celldesigner:linkAnchor position="W"/>
+<celldesigner:connectScheme connectPolicy="direct">
+<celldesigner:listOfLineDirection>
+<celldesigner:lineDirection index="0" value="unknown"/>
+</celldesigner:listOfLineDirection>
+</celldesigner:connectScheme>
+<celldesigner:line width="1.0" color="ff000000" type="Straight"/>
+</celldesigner:productLink>
+</celldesigner:listOfProductLinks>
+<celldesigner:connectScheme connectPolicy="direct" rectangleIndex="1">
+<celldesigner:listOfLineDirection>
+<celldesigner:lineDirection index="0" value="unknown"/>
+<celldesigner:lineDirection index="1" value="unknown"/>
+<celldesigner:lineDirection index="2" value="unknown"/>
+</celldesigner:listOfLineDirection>
+</celldesigner:connectScheme>
+<celldesigner:editPoints>0.23225600906226773,0.05773655704626712 0.23225600906226773,0.05773655704626712</celldesigner:editPoints>
+<celldesigner:line width="1.0" color="ff000000"/>
+</celldesigner:extension>
+</annotation>
+<listOfReactants>
+<speciesReference metaid="metaid_151" species="NADH">
+<annotation>
+<celldesigner:extension>
+<celldesigner:alias>sa13</celldesigner:alias>
+</celldesigner:extension>
+</annotation>
+</speciesReference>
+<speciesReference metaid="metaid_152" species="TRIO">
+<annotation>
+<celldesigner:extension>
+<celldesigner:alias>sa21</celldesigner:alias>
+</celldesigner:extension>
+</annotation>
+</speciesReference>
+</listOfReactants>
+<listOfProducts>
+<speciesReference metaid="metaid_153" species="PHOS">
+<annotation>
+<celldesigner:extension>
+<celldesigner:alias>sa17</celldesigner:alias>
+</celldesigner:extension>
+</annotation>
+</speciesReference>
+<speciesReference metaid="metaid_154" species="GLY">
+<annotation>
+<celldesigner:extension>
+<celldesigner:alias>sa10</celldesigner:alias>
+</celldesigner:extension>
+</annotation>
+</speciesReference>
+<speciesReference metaid="metaid_155" species="NAD">
+<annotation>
+<celldesigner:extension>
+<celldesigner:alias>sa12</celldesigner:alias>
+</celldesigner:extension>
+</annotation>
+</speciesReference>
+</listOfProducts>
+<kineticLaw metaid="CDMT00008">
+<math xmlns="http://www.w3.org/1998/Math/MathML">
+<apply>
+<divide/>
+<apply>
+<times/>
+<ci> VmG3PDH </ci>
+<apply>
+<plus/>
+<apply>
+<minus/>
+<apply>
+<divide/>
+<apply>
+<times/>
+<ci> GLY </ci>
+<apply>
+<minus/>
+<ci> NADt </ci>
+<ci> NADH </ci>
+</apply>
+</apply>
+<ci> KeqG3PDH </ci>
+</apply>
+</apply>
+<apply>
+<divide/>
+<apply>
+<times/>
+<ci> NADH </ci>
+<ci> TRIO </ci>
+</apply>
+<apply>
+<plus/>
+<cn type="integer"> 1 </cn>
+<ci> KeqTPI </ci>
+</apply>
+</apply>
+</apply>
+</apply>
+<apply>
+<times/>
+<ci> compartment </ci>
+<ci> KmG3PDHDHAP </ci>
+<ci> KmG3PDHNADH </ci>
+<apply>
+<plus/>
+<cn type="integer"> 1 </cn>
+<apply>
+<divide/>
+<apply>
+<minus/>
+<ci> NADt </ci>
+<ci> NADH </ci>
+</apply>
+<ci> KmG3PDHNAD </ci>
+</apply>
+<apply>
+<divide/>
+<ci> NADH </ci>
+<ci> KmG3PDHNADH </ci>
+</apply>
+</apply>
+<apply>
+<plus/>
+<cn type="integer"> 1 </cn>
+<apply>
+<divide/>
+<ci> GLY </ci>
+<ci> KmG3PDHGLY </ci>
+</apply>
+<apply>
+<divide/>
+<ci> TRIO </ci>
+<apply>
+<times/>
+<apply>
+<plus/>
+<cn type="integer"> 1 </cn>
+<ci> KeqTPI </ci>
+</apply>
+<ci> KmG3PDHDHAP </ci>
+</apply>
+</apply>
+</apply>
+</apply>
+</apply>
+</math>
+</kineticLaw>
+</reaction>
+<reaction metaid="metaid_159" id="v17" name="v17" fast="false">
+<annotation>
+<celldesigner:extension>
+<celldesigner:name>v17</celldesigner:name>
+<celldesigner:reactionType>STATE_TRANSITION</celldesigner:reactionType>
+<celldesigner:baseReactants>
+<celldesigner:baseReactant species="Prb" alias="sa19">
+<celldesigner:linkAnchor position="NW"/>
+</celldesigner:baseReactant>
+</celldesigner:baseReactants>
+<celldesigner:baseProducts>
+<celldesigner:baseProduct species="PHOS" alias="sa17">
+<celldesigner:linkAnchor position="SSE"/>
+</celldesigner:baseProduct>
+</celldesigner:baseProducts>
+<celldesigner:connectScheme connectPolicy="direct" rectangleIndex="1">
+<celldesigner:listOfLineDirection>
+<celldesigner:lineDirection index="0" value="unknown"/>
+<celldesigner:lineDirection index="1" value="unknown"/>
+<celldesigner:lineDirection index="2" value="unknown"/>
+</celldesigner:listOfLineDirection>
+</celldesigner:connectScheme>
+<celldesigner:editPoints>0.29973474801060984,0.018567639257294433 0.29973474801060984,0.018567639257294433</celldesigner:editPoints>
+<celldesigner:line width="1.0" color="ff000000"/>
+</celldesigner:extension>
+</annotation>
+<listOfReactants>
+<speciesReference metaid="metaid_157" species="Prb">
+<annotation>
+<celldesigner:extension>
+<celldesigner:alias>sa19</celldesigner:alias>
+</celldesigner:extension>
+</annotation>
+</speciesReference>
+</listOfReactants>
+<listOfProducts>
+<speciesReference metaid="metaid_158" species="PHOS">
+<annotation>
+<celldesigner:extension>
+<celldesigner:alias>sa17</celldesigner:alias>
+</celldesigner:extension>
+</annotation>
+</speciesReference>
+</listOfProducts>
+<kineticLaw metaid="CDMT00009">
+<math xmlns="http://www.w3.org/1998/Math/MathML">
+<apply>
+<divide/>
+<apply>
+<times/>
+<ci> KATPASE </ci>
+<apply>
+<plus/>
+<apply>
+<minus/>
+<apply>
+<plus/>
+<apply>
+<minus/>
+<ci> SUMAXP </ci>
+</apply>
+<ci> Prb </ci>
+</apply>
+<apply>
+<times/>
+<cn type="integer"> 4 </cn>
+<ci> KeqAK </ci>
+<ci> Prb </ci>
+</apply>
+</apply>
+<apply>
+<power/>
+<apply>
+<minus/>
+<apply>
+<plus/>
+<apply>
+<minus/>
+<apply>
+<power/>
+<ci> SUMAXP </ci>
+<cn type="integer"> 2 </cn>
+</apply>
+<apply>
+<times/>
+<cn type="integer"> 2 </cn>
+<ci> SUMAXP </ci>
+<ci> Prb </ci>
+</apply>
+</apply>
+<apply>
+<times/>
+<cn type="integer"> 8 </cn>
+<ci> KeqAK </ci>
+<ci> SUMAXP </ci>
+<ci> Prb </ci>
+</apply>
+<apply>
+<power/>
+<ci> Prb </ci>
+<cn type="integer"> 2 </cn>
+</apply>
+</apply>
+<apply>
+<times/>
+<cn type="integer"> 4 </cn>
+<ci> KeqAK </ci>
+<apply>
+<power/>
+<ci> Prb </ci>
+<cn type="integer"> 2 </cn>
+</apply>
+</apply>
+</apply>
+<cn> 0.5 </cn>
+</apply>
+</apply>
+</apply>
+<apply>
+<times/>
+<ci> compartment </ci>
+<apply>
+<minus/>
+<cn type="integer"> 2 </cn>
+<apply>
+<times/>
+<cn type="integer"> 8 </cn>
+<ci> KeqAK </ci>
+</apply>
+</apply>
+</apply>
+</apply>
+</math>
+</kineticLaw>
+</reaction>
+<reaction metaid="metaid_162" id="v18" name="v18" fast="false">
+<annotation>
+<celldesigner:extension>
+<celldesigner:name>v18</celldesigner:name>
+<celldesigner:reactionType>STATE_TRANSITION</celldesigner:reactionType>
+<celldesigner:baseReactants>
+<celldesigner:baseReactant species="X" alias="sa23">
+<celldesigner:linkAnchor position="ESE"/>
+</celldesigner:baseReactant>
+</celldesigner:baseReactants>
+<celldesigner:baseProducts>
+<celldesigner:baseProduct species="PHOS" alias="sa17">
+<celldesigner:linkAnchor position="N"/>
+</celldesigner:baseProduct>
+</celldesigner:baseProducts>
+<celldesigner:connectScheme connectPolicy="direct" rectangleIndex="1">
+<celldesigner:listOfLineDirection>
+<celldesigner:lineDirection index="0" value="unknown"/>
+<celldesigner:lineDirection index="1" value="unknown"/>
+<celldesigner:lineDirection index="2" value="unknown"/>
+</celldesigner:listOfLineDirection>
+</celldesigner:connectScheme>
+<celldesigner:editPoints>0.3302295713597685,-0.16310804302456272 0.3302295713597685,-0.16310804302456272</celldesigner:editPoints>
+<celldesigner:line width="1.0" color="ff000000"/>
+</celldesigner:extension>
+</annotation>
+<listOfReactants>
+<speciesReference metaid="metaid_160" species="X">
+<annotation>
+<celldesigner:extension>
+<celldesigner:alias>sa23</celldesigner:alias>
+</celldesigner:extension>
+</annotation>
+</speciesReference>
+</listOfReactants>
+<listOfProducts>
+<speciesReference metaid="metaid_161" species="PHOS">
+<annotation>
+<celldesigner:extension>
+<celldesigner:alias>sa17</celldesigner:alias>
+</celldesigner:extension>
+</annotation>
+</speciesReference>
+</listOfProducts>
+<kineticLaw metaid="CDMT00010">
+<math xmlns="http://www.w3.org/1998/Math/MathML">
+<apply>
+<divide/>
+<apply>
+<times/>
+<ci> KPHOS </ci>
+<apply>
+<minus/>
+<ci> pT </ci>
+<ci> PHOS </ci>
+</apply>
+</apply>
+<ci> compartment </ci>
+</apply>
+</math>
+</kineticLaw>
+</reaction>
+<reaction metaid="metaid_165" id="v2" name="v2" fast="false">
+<annotation>
+<celldesigner:extension>
+<celldesigner:name>v2</celldesigner:name>
+<celldesigner:reactionType>STATE_TRANSITION</celldesigner:reactionType>
+<celldesigner:baseReactants>
+<celldesigner:baseReactant species="G6P" alias="sa7">
+<celldesigner:linkAnchor position="SSW"/>
+</celldesigner:baseReactant>
+</celldesigner:baseReactants>
+<celldesigner:baseProducts>
+<celldesigner:baseProduct species="F6P" alias="sa6">
+<celldesigner:linkAnchor position="NW"/>
+</celldesigner:baseProduct>
+</celldesigner:baseProducts>
+<celldesigner:connectScheme connectPolicy="direct" rectangleIndex="1">
+<celldesigner:listOfLineDirection>
+<celldesigner:lineDirection index="0" value="unknown"/>
+<celldesigner:lineDirection index="1" value="unknown"/>
+<celldesigner:lineDirection index="2" value="unknown"/>
+</celldesigner:listOfLineDirection>
+</celldesigner:connectScheme>
+<celldesigner:editPoints>0.5018867924528294,-0.05660377358490626 0.5018867924528294,-0.05660377358490626</celldesigner:editPoints>
+<celldesigner:line width="1.0" color="ff000000"/>
+</celldesigner:extension>
+</annotation>
+<listOfReactants>
+<speciesReference metaid="metaid_163" species="G6P">
+<annotation>
+<celldesigner:extension>
+<celldesigner:alias>sa7</celldesigner:alias>
+</celldesigner:extension>
+</annotation>
+</speciesReference>
+</listOfReactants>
+<listOfProducts>
+<speciesReference metaid="metaid_164" species="F6P">
+<annotation>
+<celldesigner:extension>
+<celldesigner:alias>sa6</celldesigner:alias>
+</celldesigner:extension>
+</annotation>
+</speciesReference>
+</listOfProducts>
+<kineticLaw metaid="CDMT00011">
+<math xmlns="http://www.w3.org/1998/Math/MathML">
+<apply>
+<divide/>
+<apply>
+<times/>
+<ci> VmPGI </ci>
+<apply>
+<plus/>
+<apply>
+<minus/>
+<apply>
+<divide/>
+<ci> F6P </ci>
+<ci> KeqPGI </ci>
+</apply>
+</apply>
+<ci> G6P </ci>
+</apply>
+</apply>
+<apply>
+<times/>
+<ci> compartment </ci>
+<ci> KmPGIG6P </ci>
+<apply>
+<plus/>
+<cn type="integer"> 1 </cn>
+<apply>
+<divide/>
+<ci> F6P </ci>
+<ci> KmPGIF6P </ci>
+</apply>
+<apply>
+<divide/>
+<ci> G6P </ci>
+<ci> KmPGIG6P </ci>
+</apply>
+</apply>
+</apply>
+</apply>
+</math>
+</kineticLaw>
+</reaction>
+<reaction metaid="metaid_170" id="v3" name="v3" fast="false">
+<annotation>
+<celldesigner:extension>
+<celldesigner:name>v3</celldesigner:name>
+<celldesigner:reactionType>STATE_TRANSITION</celldesigner:reactionType>
+<celldesigner:baseReactants>
+<celldesigner:baseReactant species="G6P" alias="sa7">
+<celldesigner:linkAnchor position="NNE"/>
+</celldesigner:baseReactant>
+</celldesigner:baseReactants>
+<celldesigner:baseProducts>
+<celldesigner:baseProduct species="Glyc" alias="sa11">
+<celldesigner:linkAnchor position="E"/>
+</celldesigner:baseProduct>
+</celldesigner:baseProducts>
+<celldesigner:listOfReactantLinks>
+<celldesigner:reactantLink reactant="Prb" alias="sa19" targetLineIndex="-1,0">
+<celldesigner:linkAnchor position="WSW"/>
+<celldesigner:connectScheme connectPolicy="direct">
+<celldesigner:listOfLineDirection>
+<celldesigner:lineDirection index="0" value="unknown"/>
+</celldesigner:listOfLineDirection>
+</celldesigner:connectScheme>
+<celldesigner:line width="1.0" color="ff000000" type="Straight"/>
+</celldesigner:reactantLink>
+</celldesigner:listOfReactantLinks>
+<celldesigner:listOfProductLinks>
+<celldesigner:productLink product="PHOS" alias="sa17" targetLineIndex="-1,1">
+<celldesigner:linkAnchor position="S"/>
+<celldesigner:connectScheme connectPolicy="direct">
+<celldesigner:listOfLineDirection>
+<celldesigner:lineDirection index="0" value="unknown"/>
+</celldesigner:listOfLineDirection>
+</celldesigner:connectScheme>
+<celldesigner:line width="1.0" color="ff000000" type="Straight"/>
+</celldesigner:productLink>
+</celldesigner:listOfProductLinks>
+<celldesigner:connectScheme connectPolicy="direct" rectangleIndex="1">
+<celldesigner:listOfLineDirection>
+<celldesigner:lineDirection index="0" value="unknown"/>
+<celldesigner:lineDirection index="1" value="unknown"/>
+<celldesigner:lineDirection index="2" value="unknown"/>
+</celldesigner:listOfLineDirection>
+</celldesigner:connectScheme>
+<celldesigner:editPoints>0.8595766649457932,0.3598347960764066 0.8595766649457932,0.3598347960764066</celldesigner:editPoints>
+<celldesigner:line width="1.0" color="ff000000"/>
+</celldesigner:extension>
+</annotation>
+<listOfReactants>
+<speciesReference metaid="metaid_166" species="G6P">
+<annotation>
+<celldesigner:extension>
+<celldesigner:alias>sa7</celldesigner:alias>
+</celldesigner:extension>
+</annotation>
+</speciesReference>
+<speciesReference metaid="metaid_167" species="Prb">
+<annotation>
+<celldesigner:extension>
+<celldesigner:alias>sa19</celldesigner:alias>
+</celldesigner:extension>
+</annotation>
+</speciesReference>
+</listOfReactants>
+<listOfProducts>
+<speciesReference metaid="metaid_168" species="Glyc">
+<annotation>
+<celldesigner:extension>
+<celldesigner:alias>sa11</celldesigner:alias>
+</celldesigner:extension>
+</annotation>
+</speciesReference>
+<speciesReference metaid="metaid_169" species="PHOS" stoichiometry="2">
+<annotation>
+<celldesigner:extension>
+<celldesigner:alias>sa17</celldesigner:alias>
+</celldesigner:extension>
+</annotation>
+</speciesReference>
+</listOfProducts>
+<kineticLaw metaid="CDMT00012">
+<math xmlns="http://www.w3.org/1998/Math/MathML">
+<apply>
+<divide/>
+<apply>
+<times/>
+<ci> KmGLYCOGEN </ci>
+<ci> G6P </ci>
+</apply>
+<ci> compartment </ci>
+</apply>
+</math>
+</kineticLaw>
+</reaction>
+<reaction metaid="metaid_175" id="v4" name="v4" fast="false">
+<annotation>
+<celldesigner:extension>
+<celldesigner:name>v4</celldesigner:name>
+<celldesigner:reactionType>STATE_TRANSITION</celldesigner:reactionType>
+<celldesigner:baseReactants>
+<celldesigner:baseReactant species="Prb" alias="sa19">
+<celldesigner:linkAnchor position="WNW"/>
+</celldesigner:baseReactant>
+</celldesigner:baseReactants>
+<celldesigner:baseProducts>
+<celldesigner:baseProduct species="Trh" alias="sa22">
+<celldesigner:linkAnchor position="ESE"/>
+</celldesigner:baseProduct>
+</celldesigner:baseProducts>
+<celldesigner:listOfReactantLinks>
+<celldesigner:reactantLink reactant="G6P" alias="sa7" targetLineIndex="-1,0">
+<celldesigner:linkAnchor position="NNE"/>
+<celldesigner:connectScheme connectPolicy="direct">
+<celldesigner:listOfLineDirection>
+<celldesigner:lineDirection index="0" value="unknown"/>
+</celldesigner:listOfLineDirection>
+</celldesigner:connectScheme>
+<celldesigner:line width="1.0" color="ff000000" type="Straight"/>
+</celldesigner:reactantLink>
+</celldesigner:listOfReactantLinks>
+<celldesigner:listOfProductLinks>
+<celldesigner:productLink product="PHOS" alias="sa17" targetLineIndex="-1,1">
+<celldesigner:linkAnchor position="SSE"/>
+<celldesigner:connectScheme connectPolicy="direct">
+<celldesigner:listOfLineDirection>
+<celldesigner:lineDirection index="0" value="unknown"/>
+</celldesigner:listOfLineDirection>
+</celldesigner:connectScheme>
+<celldesigner:line width="1.0" color="ff000000" type="Straight"/>
+</celldesigner:productLink>
+</celldesigner:listOfProductLinks>
+<celldesigner:connectScheme connectPolicy="direct" rectangleIndex="1">
+<celldesigner:listOfLineDirection>
+<celldesigner:lineDirection index="0" value="unknown"/>
+<celldesigner:lineDirection index="1" value="unknown"/>
+<celldesigner:lineDirection index="2" value="unknown"/>
+</celldesigner:listOfLineDirection>
+</celldesigner:connectScheme>
+<celldesigner:editPoints>0.43529411764706083,-0.1294117647058819 0.43529411764706083,-0.1294117647058819</celldesigner:editPoints>
+<celldesigner:line width="1.0" color="ff000000"/>
+</celldesigner:extension>
+</annotation>
+<listOfReactants>
+<speciesReference metaid="metaid_171" species="Prb">
+<annotation>
+<celldesigner:extension>
+<celldesigner:alias>sa19</celldesigner:alias>
+</celldesigner:extension>
+</annotation>
+</speciesReference>
+<speciesReference metaid="metaid_172" species="G6P" stoichiometry="2">
+<annotation>
+<celldesigner:extension>
+<celldesigner:alias>sa7</celldesigner:alias>
+</celldesigner:extension>
+</annotation>
+</speciesReference>
+</listOfReactants>
+<listOfProducts>
+<speciesReference metaid="metaid_173" species="Trh">
+<annotation>
+<celldesigner:extension>
+<celldesigner:alias>sa22</celldesigner:alias>
+</celldesigner:extension>
+</annotation>
+</speciesReference>
+<speciesReference metaid="metaid_174" species="PHOS" stoichiometry="3">
+<annotation>
+<celldesigner:extension>
+<celldesigner:alias>sa17</celldesigner:alias>
+</celldesigner:extension>
+</annotation>
+</speciesReference>
+</listOfProducts>
+<kineticLaw metaid="CDMT00013">
+<math xmlns="http://www.w3.org/1998/Math/MathML">
+<apply>
+<divide/>
+<apply>
+<times/>
+<ci> wt </ci>
+<ci> KTREHALOSE </ci>
+<ci> G6P </ci>
+</apply>
+<ci> compartment </ci>
+</apply>
+</math>
+</kineticLaw>
+</reaction>
+<reaction metaid="metaid_179" id="v5" name="v5" fast="false">
+<annotation>
+<celldesigner:extension>
+<celldesigner:name>v5</celldesigner:name>
+<celldesigner:reactionType>STATE_TRANSITION</celldesigner:reactionType>
+<celldesigner:baseReactants>
+<celldesigner:baseReactant species="F6P" alias="sa6">
+<celldesigner:linkAnchor position="NE"/>
+</celldesigner:baseReactant>
+</celldesigner:baseReactants>
+<celldesigner:baseProducts>
+<celldesigner:baseProduct species="F16P" alias="sa5">
+<celldesigner:linkAnchor position="SW"/>
+</celldesigner:baseProduct>
+</celldesigner:baseProducts>
+<celldesigner:listOfReactantLinks>
+<celldesigner:reactantLink reactant="Prb" alias="sa19" targetLineIndex="-1,0">
+<celldesigner:linkAnchor position="S"/>
+<celldesigner:connectScheme connectPolicy="direct">
+<celldesigner:listOfLineDirection>
+<celldesigner:lineDirection index="0" value="unknown"/>
+</celldesigner:listOfLineDirection>
+</celldesigner:connectScheme>
+<celldesigner:line width="1.0" color="ff000000" type="Straight"/>
+</celldesigner:reactantLink>
+</celldesigner:listOfReactantLinks>
+<celldesigner:connectScheme connectPolicy="direct" rectangleIndex="1">
+<celldesigner:listOfLineDirection>
+<celldesigner:lineDirection index="0" value="unknown"/>
+<celldesigner:lineDirection index="1" value="unknown"/>
+<celldesigner:lineDirection index="2" value="unknown"/>
+</celldesigner:listOfLineDirection>
+</celldesigner:connectScheme>
+<celldesigner:editPoints>0.7059468347492466,0.050972869279254596 0.7059468347492466,0.050972869279254596</celldesigner:editPoints>
+<celldesigner:line width="1.0" color="ff000000"/>
+</celldesigner:extension>
+</annotation>
+<listOfReactants>
+<speciesReference metaid="metaid_176" species="F6P">
+<annotation>
+<celldesigner:extension>
+<celldesigner:alias>sa6</celldesigner:alias>
+</celldesigner:extension>
+</annotation>
+</speciesReference>
+<speciesReference metaid="metaid_177" species="Prb">
+<annotation>
+<celldesigner:extension>
+<celldesigner:alias>sa19</celldesigner:alias>
+</celldesigner:extension>
+</annotation>
+</speciesReference>
+</listOfReactants>
+<listOfProducts>
+<speciesReference metaid="metaid_178" species="F16P">
+<annotation>
+<celldesigner:extension>
+<celldesigner:alias>sa5</celldesigner:alias>
+</celldesigner:extension>
+</annotation>
+</speciesReference>
+</listOfProducts>
+<kineticLaw metaid="CDMT00014">
+<math xmlns="http://www.w3.org/1998/Math/MathML">
+<apply>
+<divide/>
+<apply>
+<times/>
+<ci> gR </ci>
+<ci> VmPFK </ci>
+<ci> F6P </ci>
+<apply>
+<plus/>
+<apply>
+<minus/>
+<apply>
+<plus/>
+<apply>
+<minus/>
+<ci> SUMAXP </ci>
+</apply>
+<ci> Prb </ci>
+</apply>
+<apply>
+<times/>
+<cn type="integer"> 4 </cn>
+<ci> KeqAK </ci>
+<ci> Prb </ci>
+</apply>
+</apply>
+<apply>
+<power/>
+<apply>
+<minus/>
+<apply>
+<plus/>
+<apply>
+<minus/>
+<apply>
+<power/>
+<ci> SUMAXP </ci>
+<cn type="integer"> 2 </cn>
+</apply>
+<apply>
+<times/>
+<cn type="integer"> 2 </cn>
+<ci> SUMAXP </ci>
+<ci> Prb </ci>
+</apply>
+</apply>
+<apply>
+<times/>
+<cn type="integer"> 8 </cn>
+<ci> KeqAK </ci>
+<ci> SUMAXP </ci>
+<ci> Prb </ci>
+</apply>
+<apply>
+<power/>
+<ci> Prb </ci>
+<cn type="integer"> 2 </cn>
+</apply>
+</apply>
+<apply>
+<times/>
+<cn type="integer"> 4 </cn>
+<ci> KeqAK </ci>
+<apply>
+<power/>
+<ci> Prb </ci>
+<cn type="integer"> 2 </cn>
+</apply>
+</apply>
+</apply>
+<cn> 0.5 </cn>
+</apply>
+</apply>
+<apply>
+<plus/>
+<cn type="integer"> 1 </cn>
+<apply>
+<divide/>
+<ci> F6P </ci>
+<ci> KmPFKF6P </ci>
+</apply>
+<apply>
+<divide/>
+<apply>
+<plus/>
+<apply>
+<minus/>
+<apply>
+<plus/>
+<apply>
+<minus/>
+<ci> SUMAXP </ci>
+</apply>
+<ci> Prb </ci>
+</apply>
+<apply>
+<times/>
+<cn type="integer"> 4 </cn>
+<ci> KeqAK </ci>
+<ci> Prb </ci>
+</apply>
+</apply>
+<apply>
+<power/>
+<apply>
+<minus/>
+<apply>
+<plus/>
+<apply>
+<minus/>
+<apply>
+<power/>
+<ci> SUMAXP </ci>
+<cn type="integer"> 2 </cn>
+</apply>
+<apply>
+<times/>
+<cn type="integer"> 2 </cn>
+<ci> SUMAXP </ci>
+<ci> Prb </ci>
+</apply>
+</apply>
+<apply>
+<times/>
+<cn type="integer"> 8 </cn>
+<ci> KeqAK </ci>
+<ci> SUMAXP </ci>
+<ci> Prb </ci>
+</apply>
+<apply>
+<power/>
+<ci> Prb </ci>
+<cn type="integer"> 2 </cn>
+</apply>
+</apply>
+<apply>
+<times/>
+<cn type="integer"> 4 </cn>
+<ci> KeqAK </ci>
+<apply>
+<power/>
+<ci> Prb </ci>
+<cn type="integer"> 2 </cn>
+</apply>
+</apply>
+</apply>
+<cn> 0.5 </cn>
+</apply>
+</apply>
+<apply>
+<times/>
+<apply>
+<minus/>
+<cn type="integer"> 2 </cn>
+<apply>
+<times/>
+<cn type="integer"> 8 </cn>
+<ci> KeqAK </ci>
+</apply>
+</apply>
+<ci> KmPFKATP </ci>
+</apply>
+</apply>
+<apply>
+<divide/>
+<apply>
+<times/>
+<ci> gR </ci>
+<ci> F6P </ci>
+<apply>
+<plus/>
+<apply>
+<minus/>
+<apply>
+<plus/>
+<apply>
+<minus/>
+<ci> SUMAXP </ci>
+</apply>
+<ci> Prb </ci>
+</apply>
+<apply>
+<times/>
+<cn type="integer"> 4 </cn>
+<ci> KeqAK </ci>
+<ci> Prb </ci>
+</apply>
+</apply>
+<apply>
+<power/>
+<apply>
+<minus/>
+<apply>
+<plus/>
+<apply>
+<minus/>
+<apply>
+<power/>
+<ci> SUMAXP </ci>
+<cn type="integer"> 2 </cn>
+</apply>
+<apply>
+<times/>
+<cn type="integer"> 2 </cn>
+<ci> SUMAXP </ci>
+<ci> Prb </ci>
+</apply>
+</apply>
+<apply>
+<times/>
+<cn type="integer"> 8 </cn>
+<ci> KeqAK </ci>
+<ci> SUMAXP </ci>
+<ci> Prb </ci>
+</apply>
+<apply>
+<power/>
+<ci> Prb </ci>
+<cn type="integer"> 2 </cn>
+</apply>
+</apply>
+<apply>
+<times/>
+<cn type="integer"> 4 </cn>
+<ci> KeqAK </ci>
+<apply>
+<power/>
+<ci> Prb </ci>
+<cn type="integer"> 2 </cn>
+</apply>
+</apply>
+</apply>
+<cn> 0.5 </cn>
+</apply>
+</apply>
+</apply>
+<apply>
+<times/>
+<apply>
+<minus/>
+<cn type="integer"> 2 </cn>
+<apply>
+<times/>
+<cn type="integer"> 8 </cn>
+<ci> KeqAK </ci>
+</apply>
+</apply>
+<ci> KmPFKATP </ci>
+<ci> KmPFKF6P </ci>
+</apply>
+</apply>
+</apply>
+</apply>
+<apply>
+<times/>
+<ci> compartment </ci>
+<apply>
+<minus/>
+<cn type="integer"> 2 </cn>
+<apply>
+<times/>
+<cn type="integer"> 8 </cn>
+<ci> KeqAK </ci>
+</apply>
+</apply>
+<ci> KmPFKATP </ci>
+<ci> KmPFKF6P </ci>
+<apply>
+<plus/>
+<apply>
+<divide/>
+<apply>
+<times/>
+<ci> L0 </ci>
+<apply>
+<power/>
+<apply>
+<plus/>
+<cn type="integer"> 1 </cn>
+<apply>
+<divide/>
+<apply>
+<times/>
+<ci> CPFKF26BP </ci>
+<ci> F26BP </ci>
+</apply>
+<ci> KPFKF26BP </ci>
+</apply>
+<apply>
+<divide/>
+<apply>
+<times/>
+<ci> CPFKF16BP </ci>
+<ci> F16P </ci>
+</apply>
+<ci> KPFKF16BP </ci>
+</apply>
+</apply>
+<cn type="integer"> 2 </cn>
+</apply>
+<apply>
+<power/>
+<apply>
+<plus/>
+<cn type="integer"> 1 </cn>
+<apply>
+<divide/>
+<apply>
+<times/>
+<cn type="integer"> 2 </cn>
+<ci> CPFKAMP </ci>
+<ci> KeqAK </ci>
+<apply>
+<power/>
+<apply>
+<minus/>
+<ci> SUMAXP </ci>
+<apply>
+<power/>
+<apply>
+<minus/>
+<apply>
+<plus/>
+<apply>
+<minus/>
+<apply>
+<power/>
+<ci> SUMAXP </ci>
+<cn type="integer"> 2 </cn>
+</apply>
+<apply>
+<times/>
+<cn type="integer"> 2 </cn>
+<ci> SUMAXP </ci>
+<ci> Prb </ci>
+</apply>
+</apply>
+<apply>
+<times/>
+<cn type="integer"> 8 </cn>
+<ci> KeqAK </ci>
+<ci> SUMAXP </ci>
+<ci> Prb </ci>
+</apply>
+<apply>
+<power/>
+<ci> Prb </ci>
+<cn type="integer"> 2 </cn>
+</apply>
+</apply>
+<apply>
+<times/>
+<cn type="integer"> 4 </cn>
+<ci> KeqAK </ci>
+<apply>
+<power/>
+<ci> Prb </ci>
+<cn type="integer"> 2 </cn>
+</apply>
+</apply>
+</apply>
+<cn> 0.5 </cn>
+</apply>
+</apply>
+<cn type="integer"> 2 </cn>
+</apply>
+</apply>
+<apply>
+<times/>
+<apply>
+<plus/>
+<apply>
+<minus/>
+<cn type="integer"> 1 </cn>
+</apply>
+<apply>
+<times/>
+<cn type="integer"> 4 </cn>
+<ci> KeqAK </ci>
+</apply>
+</apply>
+<ci> KPFKAMP </ci>
+<apply>
+<minus/>
+<apply>
+<plus/>
+<apply>
+<minus/>
+<ci> SUMAXP </ci>
+<ci> Prb </ci>
+</apply>
+<apply>
+<times/>
+<cn type="integer"> 4 </cn>
+<ci> KeqAK </ci>
+<ci> Prb </ci>
+</apply>
+</apply>
+<apply>
+<power/>
+<apply>
+<minus/>
+<apply>
+<plus/>
+<apply>
+<minus/>
+<apply>
+<power/>
+<ci> SUMAXP </ci>
+<cn type="integer"> 2 </cn>
+</apply>
+<apply>
+<times/>
+<cn type="integer"> 2 </cn>
+<ci> SUMAXP </ci>
+<ci> Prb </ci>
+</apply>
+</apply>
+<apply>
+<times/>
+<cn type="integer"> 8 </cn>
+<ci> KeqAK </ci>
+<ci> SUMAXP </ci>
+<ci> Prb </ci>
+</apply>
+<apply>
+<power/>
+<ci> Prb </ci>
+<cn type="integer"> 2 </cn>
+</apply>
+</apply>
+<apply>
+<times/>
+<cn type="integer"> 4 </cn>
+<ci> KeqAK </ci>
+<apply>
+<power/>
+<ci> Prb </ci>
+<cn type="integer"> 2 </cn>
+</apply>
+</apply>
+</apply>
+<cn> 0.5 </cn>
+</apply>
+</apply>
+</apply>
+</apply>
+</apply>
+<cn type="integer"> 2 </cn>
+</apply>
+<apply>
+<power/>
+<apply>
+<plus/>
+<cn type="integer"> 1 </cn>
+<apply>
+<divide/>
+<apply>
+<times/>
+<ci> CiPFKATP </ci>
+<apply>
+<plus/>
+<apply>
+<minus/>
+<apply>
+<plus/>
+<apply>
+<minus/>
+<ci> SUMAXP </ci>
+</apply>
+<ci> Prb </ci>
+</apply>
+<apply>
+<times/>
+<cn type="integer"> 4 </cn>
+<ci> KeqAK </ci>
+<ci> Prb </ci>
+</apply>
+</apply>
+<apply>
+<power/>
+<apply>
+<minus/>
+<apply>
+<plus/>
+<apply>
+<minus/>
+<apply>
+<power/>
+<ci> SUMAXP </ci>
+<cn type="integer"> 2 </cn>
+</apply>
+<apply>
+<times/>
+<cn type="integer"> 2 </cn>
+<ci> SUMAXP </ci>
+<ci> Prb </ci>
+</apply>
+</apply>
+<apply>
+<times/>
+<cn type="integer"> 8 </cn>
+<ci> KeqAK </ci>
+<ci> SUMAXP </ci>
+<ci> Prb </ci>
+</apply>
+<apply>
+<power/>
+<ci> Prb </ci>
+<cn type="integer"> 2 </cn>
+</apply>
+</apply>
+<apply>
+<times/>
+<cn type="integer"> 4 </cn>
+<ci> KeqAK </ci>
+<apply>
+<power/>
+<ci> Prb </ci>
+<cn type="integer"> 2 </cn>
+</apply>
+</apply>
+</apply>
+<cn> 0.5 </cn>
+</apply>
+</apply>
+</apply>
+<apply>
+<times/>
+<apply>
+<minus/>
+<cn type="integer"> 2 </cn>
+<apply>
+<times/>
+<cn type="integer"> 8 </cn>
+<ci> KeqAK </ci>
+</apply>
+</apply>
+<ci> KiPFKATP </ci>
+</apply>
+</apply>
+</apply>
+<cn type="integer"> 2 </cn>
+</apply>
+<apply>
+<power/>
+<apply>
+<plus/>
+<cn type="integer"> 1 </cn>
+<apply>
+<divide/>
+<apply>
+<times/>
+<ci> CPFKATP </ci>
+<apply>
+<plus/>
+<apply>
+<minus/>
+<apply>
+<plus/>
+<apply>
+<minus/>
+<ci> SUMAXP </ci>
+</apply>
+<ci> Prb </ci>
+</apply>
+<apply>
+<times/>
+<cn type="integer"> 4 </cn>
+<ci> KeqAK </ci>
+<ci> Prb </ci>
+</apply>
+</apply>
+<apply>
+<power/>
+<apply>
+<minus/>
+<apply>
+<plus/>
+<apply>
+<minus/>
+<apply>
+<power/>
+<ci> SUMAXP </ci>
+<cn type="integer"> 2 </cn>
+</apply>
+<apply>
+<times/>
+<cn type="integer"> 2 </cn>
+<ci> SUMAXP </ci>
+<ci> Prb </ci>
+</apply>
+</apply>
+<apply>
+<times/>
+<cn type="integer"> 8 </cn>
+<ci> KeqAK </ci>
+<ci> SUMAXP </ci>
+<ci> Prb </ci>
+</apply>
+<apply>
+<power/>
+<ci> Prb </ci>
+<cn type="integer"> 2 </cn>
+</apply>
+</apply>
+<apply>
+<times/>
+<cn type="integer"> 4 </cn>
+<ci> KeqAK </ci>
+<apply>
+<power/>
+<ci> Prb </ci>
+<cn type="integer"> 2 </cn>
+</apply>
+</apply>
+</apply>
+<cn> 0.5 </cn>
+</apply>
+</apply>
+</apply>
+<apply>
+<times/>
+<apply>
+<minus/>
+<cn type="integer"> 2 </cn>
+<apply>
+<times/>
+<cn type="integer"> 8 </cn>
+<ci> KeqAK </ci>
+</apply>
+</apply>
+<ci> KmPFKATP </ci>
+</apply>
+</apply>
+</apply>
+<cn type="integer"> 2 </cn>
+</apply>
+</apply>
+<apply>
+<times/>
+<apply>
+<power/>
+<apply>
+<plus/>
+<cn type="integer"> 1 </cn>
+<apply>
+<divide/>
+<ci> F26BP </ci>
+<ci> KPFKF26BP </ci>
+</apply>
+<apply>
+<divide/>
+<ci> F16P </ci>
+<ci> KPFKF16BP </ci>
+</apply>
+</apply>
+<cn type="integer"> 2 </cn>
+</apply>
+<apply>
+<power/>
+<apply>
+<plus/>
+<cn type="integer"> 1 </cn>
+<apply>
+<divide/>
+<apply>
+<times/>
+<cn type="integer"> 2 </cn>
+<ci> KeqAK </ci>
+<apply>
+<power/>
+<apply>
+<minus/>
+<ci> SUMAXP </ci>
+<apply>
+<power/>
+<apply>
+<minus/>
+<apply>
+<plus/>
+<apply>
+<minus/>
+<apply>
+<power/>
+<ci> SUMAXP </ci>
+<cn type="integer"> 2 </cn>
+</apply>
+<apply>
+<times/>
+<cn type="integer"> 2 </cn>
+<ci> SUMAXP </ci>
+<ci> Prb </ci>
+</apply>
+</apply>
+<apply>
+<times/>
+<cn type="integer"> 8 </cn>
+<ci> KeqAK </ci>
+<ci> SUMAXP </ci>
+<ci> Prb </ci>
+</apply>
+<apply>
+<power/>
+<ci> Prb </ci>
+<cn type="integer"> 2 </cn>
+</apply>
+</apply>
+<apply>
+<times/>
+<cn type="integer"> 4 </cn>
+<ci> KeqAK </ci>
+<apply>
+<power/>
+<ci> Prb </ci>
+<cn type="integer"> 2 </cn>
+</apply>
+</apply>
+</apply>
+<cn> 0.5 </cn>
+</apply>
+</apply>
+<cn type="integer"> 2 </cn>
+</apply>
+</apply>
+<apply>
+<times/>
+<apply>
+<plus/>
+<apply>
+<minus/>
+<cn type="integer"> 1 </cn>
+</apply>
+<apply>
+<times/>
+<cn type="integer"> 4 </cn>
+<ci> KeqAK </ci>
+</apply>
+</apply>
+<ci> KPFKAMP </ci>
+<apply>
+<minus/>
+<apply>
+<plus/>
+<apply>
+<minus/>
+<ci> SUMAXP </ci>
+<ci> Prb </ci>
+</apply>
+<apply>
+<times/>
+<cn type="integer"> 4 </cn>
+<ci> KeqAK </ci>
+<ci> Prb </ci>
+</apply>
+</apply>
+<apply>
+<power/>
+<apply>
+<minus/>
+<apply>
+<plus/>
+<apply>
+<minus/>
+<apply>
+<power/>
+<ci> SUMAXP </ci>
+<cn type="integer"> 2 </cn>
+</apply>
+<apply>
+<times/>
+<cn type="integer"> 2 </cn>
+<ci> SUMAXP </ci>
+<ci> Prb </ci>
+</apply>
+</apply>
+<apply>
+<times/>
+<cn type="integer"> 8 </cn>
+<ci> KeqAK </ci>
+<ci> SUMAXP </ci>
+<ci> Prb </ci>
+</apply>
+<apply>
+<power/>
+<ci> Prb </ci>
+<cn type="integer"> 2 </cn>
+</apply>
+</apply>
+<apply>
+<times/>
+<cn type="integer"> 4 </cn>
+<ci> KeqAK </ci>
+<apply>
+<power/>
+<ci> Prb </ci>
+<cn type="integer"> 2 </cn>
+</apply>
+</apply>
+</apply>
+<cn> 0.5 </cn>
+</apply>
+</apply>
+</apply>
+</apply>
+</apply>
+<cn type="integer"> 2 </cn>
+</apply>
+<apply>
+<power/>
+<apply>
+<plus/>
+<cn type="integer"> 1 </cn>
+<apply>
+<divide/>
+<apply>
+<plus/>
+<apply>
+<minus/>
+<apply>
+<plus/>
+<apply>
+<minus/>
+<ci> SUMAXP </ci>
+</apply>
+<ci> Prb </ci>
+</apply>
+<apply>
+<times/>
+<cn type="integer"> 4 </cn>
+<ci> KeqAK </ci>
+<ci> Prb </ci>
+</apply>
+</apply>
+<apply>
+<power/>
+<apply>
+<minus/>
+<apply>
+<plus/>
+<apply>
+<minus/>
+<apply>
+<power/>
+<ci> SUMAXP </ci>
+<cn type="integer"> 2 </cn>
+</apply>
+<apply>
+<times/>
+<cn type="integer"> 2 </cn>
+<ci> SUMAXP </ci>
+<ci> Prb </ci>
+</apply>
+</apply>
+<apply>
+<times/>
+<cn type="integer"> 8 </cn>
+<ci> KeqAK </ci>
+<ci> SUMAXP </ci>
+<ci> Prb </ci>
+</apply>
+<apply>
+<power/>
+<ci> Prb </ci>
+<cn type="integer"> 2 </cn>
+</apply>
+</apply>
+<apply>
+<times/>
+<cn type="integer"> 4 </cn>
+<ci> KeqAK </ci>
+<apply>
+<power/>
+<ci> Prb </ci>
+<cn type="integer"> 2 </cn>
+</apply>
+</apply>
+</apply>
+<cn> 0.5 </cn>
+</apply>
+</apply>
+<apply>
+<times/>
+<apply>
+<minus/>
+<cn type="integer"> 2 </cn>
+<apply>
+<times/>
+<cn type="integer"> 8 </cn>
+<ci> KeqAK </ci>
+</apply>
+</apply>
+<ci> KiPFKATP </ci>
+</apply>
+</apply>
+</apply>
+<cn type="integer"> 2 </cn>
+</apply>
+</apply>
+</apply>
+<apply>
+<power/>
+<apply>
+<plus/>
+<cn type="integer"> 1 </cn>
+<apply>
+<divide/>
+<ci> F6P </ci>
+<ci> KmPFKF6P </ci>
+</apply>
+<apply>
+<divide/>
+<apply>
+<plus/>
+<apply>
+<minus/>
+<apply>
+<plus/>
+<apply>
+<minus/>
+<ci> SUMAXP </ci>
+</apply>
+<ci> Prb </ci>
+</apply>
+<apply>
+<times/>
+<cn type="integer"> 4 </cn>
+<ci> KeqAK </ci>
+<ci> Prb </ci>
+</apply>
+</apply>
+<apply>
+<power/>
+<apply>
+<minus/>
+<apply>
+<plus/>
+<apply>
+<minus/>
+<apply>
+<power/>
+<ci> SUMAXP </ci>
+<cn type="integer"> 2 </cn>
+</apply>
+<apply>
+<times/>
+<cn type="integer"> 2 </cn>
+<ci> SUMAXP </ci>
+<ci> Prb </ci>
+</apply>
+</apply>
+<apply>
+<times/>
+<cn type="integer"> 8 </cn>
+<ci> KeqAK </ci>
+<ci> SUMAXP </ci>
+<ci> Prb </ci>
+</apply>
+<apply>
+<power/>
+<ci> Prb </ci>
+<cn type="integer"> 2 </cn>
+</apply>
+</apply>
+<apply>
+<times/>
+<cn type="integer"> 4 </cn>
+<ci> KeqAK </ci>
+<apply>
+<power/>
+<ci> Prb </ci>
+<cn type="integer"> 2 </cn>
+</apply>
+</apply>
+</apply>
+<cn> 0.5 </cn>
+</apply>
+</apply>
+<apply>
+<times/>
+<apply>
+<minus/>
+<cn type="integer"> 2 </cn>
+<apply>
+<times/>
+<cn type="integer"> 8 </cn>
+<ci> KeqAK </ci>
+</apply>
+</apply>
+<ci> KmPFKATP </ci>
+</apply>
+</apply>
+<apply>
+<divide/>
+<apply>
+<times/>
+<ci> gR </ci>
+<ci> F6P </ci>
+<apply>
+<plus/>
+<apply>
+<minus/>
+<apply>
+<plus/>
+<apply>
+<minus/>
+<ci> SUMAXP </ci>
+</apply>
+<ci> Prb </ci>
+</apply>
+<apply>
+<times/>
+<cn type="integer"> 4 </cn>
+<ci> KeqAK </ci>
+<ci> Prb </ci>
+</apply>
+</apply>
+<apply>
+<power/>
+<apply>
+<minus/>
+<apply>
+<plus/>
+<apply>
+<minus/>
+<apply>
+<power/>
+<ci> SUMAXP </ci>
+<cn type="integer"> 2 </cn>
+</apply>
+<apply>
+<times/>
+<cn type="integer"> 2 </cn>
+<ci> SUMAXP </ci>
+<ci> Prb </ci>
+</apply>
+</apply>
+<apply>
+<times/>
+<cn type="integer"> 8 </cn>
+<ci> KeqAK </ci>
+<ci> SUMAXP </ci>
+<ci> Prb </ci>
+</apply>
+<apply>
+<power/>
+<ci> Prb </ci>
+<cn type="integer"> 2 </cn>
+</apply>
+</apply>
+<apply>
+<times/>
+<cn type="integer"> 4 </cn>
+<ci> KeqAK </ci>
+<apply>
+<power/>
+<ci> Prb </ci>
+<cn type="integer"> 2 </cn>
+</apply>
+</apply>
+</apply>
+<cn> 0.5 </cn>
+</apply>
+</apply>
+</apply>
+<apply>
+<times/>
+<apply>
+<minus/>
+<cn type="integer"> 2 </cn>
+<apply>
+<times/>
+<cn type="integer"> 8 </cn>
+<ci> KeqAK </ci>
+</apply>
+</apply>
+<ci> KmPFKATP </ci>
+<ci> KmPFKF6P </ci>
+</apply>
+</apply>
+</apply>
+<cn type="integer"> 2 </cn>
+</apply>
+</apply>
+</apply>
+</apply>
+</math>
+</kineticLaw>
+</reaction>
+<reaction metaid="metaid_182" id="v6" name="v6" fast="false">
+<annotation>
+<celldesigner:extension>
+<celldesigner:name>v6</celldesigner:name>
+<celldesigner:reactionType>STATE_TRANSITION</celldesigner:reactionType>
+<celldesigner:baseReactants>
+<celldesigner:baseReactant species="F16P" alias="sa5">
+<celldesigner:linkAnchor position="N"/>
+</celldesigner:baseReactant>
+</celldesigner:baseReactants>
+<celldesigner:baseProducts>
+<celldesigner:baseProduct species="TRIO" alias="sa21">
+<celldesigner:linkAnchor position="SSE"/>
+</celldesigner:baseProduct>
+</celldesigner:baseProducts>
+<celldesigner:connectScheme connectPolicy="direct" rectangleIndex="1">
+<celldesigner:listOfLineDirection>
+<celldesigner:lineDirection index="0" value="unknown"/>
+<celldesigner:lineDirection index="1" value="unknown"/>
+<celldesigner:lineDirection index="2" value="unknown"/>
+</celldesigner:listOfLineDirection>
+</celldesigner:connectScheme>
+<celldesigner:editPoints>0.7690354553519536,0.03374223744990634 0.7690354553519536,0.03374223744990634</celldesigner:editPoints>
+<celldesigner:line width="1.0" color="ff000000"/>
+</celldesigner:extension>
+</annotation>
+<listOfReactants>
+<speciesReference metaid="metaid_180" species="F16P">
+<annotation>
+<celldesigner:extension>
+<celldesigner:alias>sa5</celldesigner:alias>
+</celldesigner:extension>
+</annotation>
+</speciesReference>
+</listOfReactants>
+<listOfProducts>
+<speciesReference metaid="metaid_181" species="TRIO" stoichiometry="2">
+<annotation>
+<celldesigner:extension>
+<celldesigner:alias>sa21</celldesigner:alias>
+</celldesigner:extension>
+</annotation>
+</speciesReference>
+</listOfProducts>
+<kineticLaw metaid="CDMT00015">
+<math xmlns="http://www.w3.org/1998/Math/MathML">
+<apply>
+<divide/>
+<apply>
+<times/>
+<ci> VmALD </ci>
+<apply>
+<minus/>
+<ci> F16P </ci>
+<apply>
+<divide/>
+<apply>
+<times/>
+<ci> KeqTPI </ci>
+<apply>
+<power/>
+<ci> TRIO </ci>
+<cn type="integer"> 2 </cn>
+</apply>
+</apply>
+<apply>
+<times/>
+<ci> KeqALD </ci>
+<apply>
+<power/>
+<apply>
+<plus/>
+<cn type="integer"> 1 </cn>
+<ci> KeqTPI </ci>
+</apply>
+<cn type="integer"> 2 </cn>
+</apply>
+</apply>
+</apply>
+</apply>
+</apply>
+<apply>
+<times/>
+<ci> compartment </ci>
+<ci> KmALDF16P </ci>
+<apply>
+<plus/>
+<cn type="integer"> 1 </cn>
+<apply>
+<divide/>
+<ci> F16P </ci>
+<ci> KmALDF16P </ci>
+</apply>
+<apply>
+<divide/>
+<ci> TRIO </ci>
+<apply>
+<times/>
+<apply>
+<plus/>
+<cn type="integer"> 1 </cn>
+<ci> KeqTPI </ci>
+</apply>
+<ci> KmALDDHAP </ci>
+</apply>
+</apply>
+<apply>
+<divide/>
+<apply>
+<times/>
+<ci> KeqTPI </ci>
+<ci> TRIO </ci>
+</apply>
+<apply>
+<times/>
+<apply>
+<plus/>
+<cn type="integer"> 1 </cn>
+<ci> KeqTPI </ci>
+</apply>
+<ci> KmALDGAP </ci>
+</apply>
+</apply>
+<apply>
+<divide/>
+<apply>
+<times/>
+<ci> KeqTPI </ci>
+<ci> F16P </ci>
+<ci> TRIO </ci>
+</apply>
+<apply>
+<times/>
+<apply>
+<plus/>
+<cn type="integer"> 1 </cn>
+<ci> KeqTPI </ci>
+</apply>
+<ci> KmALDF16P </ci>
+<ci> KmALDGAPi </ci>
+</apply>
+</apply>
+<apply>
+<divide/>
+<apply>
+<times/>
+<ci> KeqTPI </ci>
+<apply>
+<power/>
+<ci> TRIO </ci>
+<cn type="integer"> 2 </cn>
+</apply>
+</apply>
+<apply>
+<times/>
+<apply>
+<power/>
+<apply>
+<plus/>
+<cn type="integer"> 1 </cn>
+<ci> KeqTPI </ci>
+</apply>
+<cn type="integer"> 2 </cn>
+</apply>
+<ci> KmALDDHAP </ci>
+<ci> KmALDGAP </ci>
+</apply>
+</apply>
+</apply>
+</apply>
+</apply>
+</math>
+</kineticLaw>
+</reaction>
+<reaction metaid="metaid_188" id="v7" name="v7" fast="false">
+<annotation>
+<celldesigner:extension>
+<celldesigner:name>v7</celldesigner:name>
+<celldesigner:reactionType>STATE_TRANSITION</celldesigner:reactionType>
+<celldesigner:baseReactants>
+<celldesigner:baseReactant species="PHOS" alias="sa17">
+<celldesigner:linkAnchor position="NE"/>
+</celldesigner:baseReactant>
+</celldesigner:baseReactants>
+<celldesigner:baseProducts>
+<celldesigner:baseProduct species="BPG" alias="sa2">
+<celldesigner:linkAnchor position="N"/>
+</celldesigner:baseProduct>
+</celldesigner:baseProducts>
+<celldesigner:listOfReactantLinks>
+<celldesigner:reactantLink reactant="TRIO" alias="sa21" targetLineIndex="-1,0">
+<celldesigner:linkAnchor position="NNE"/>
+<celldesigner:connectScheme connectPolicy="direct">
+<celldesigner:listOfLineDirection>
+<celldesigner:lineDirection index="0" value="unknown"/>
+</celldesigner:listOfLineDirection>
+</celldesigner:connectScheme>
+<celldesigner:line width="1.0" color="ff000000" type="Straight"/>
+</celldesigner:reactantLink>
+<celldesigner:reactantLink reactant="NAD" alias="sa12" targetLineIndex="-1,0">
+<celldesigner:linkAnchor position="SW"/>
+<celldesigner:connectScheme connectPolicy="direct">
+<celldesigner:listOfLineDirection>
+<celldesigner:lineDirection index="0" value="unknown"/>
+</celldesigner:listOfLineDirection>
+</celldesigner:connectScheme>
+<celldesigner:line width="1.0" color="ff000000" type="Straight"/>
+</celldesigner:reactantLink>
+</celldesigner:listOfReactantLinks>
+<celldesigner:listOfProductLinks>
+<celldesigner:productLink product="NADH" alias="sa13" targetLineIndex="-1,1">
+<celldesigner:linkAnchor position="SSW"/>
+<celldesigner:connectScheme connectPolicy="direct">
+<celldesigner:listOfLineDirection>
+<celldesigner:lineDirection index="0" value="unknown"/>
+</celldesigner:listOfLineDirection>
+</celldesigner:connectScheme>
+<celldesigner:line width="1.0" color="ff000000" type="Straight"/>
+</celldesigner:productLink>
+</celldesigner:listOfProductLinks>
+<celldesigner:connectScheme connectPolicy="direct" rectangleIndex="1">
+<celldesigner:listOfLineDirection>
+<celldesigner:lineDirection index="0" value="unknown"/>
+<celldesigner:lineDirection index="1" value="unknown"/>
+<celldesigner:lineDirection index="2" value="unknown"/>
+</celldesigner:listOfLineDirection>
+</celldesigner:connectScheme>
+<celldesigner:editPoints>0.049805447470816944,-1.3031128404669259 0.049805447470816944,-1.3031128404669259</celldesigner:editPoints>
+<celldesigner:line width="1.0" color="ff000000"/>
+</celldesigner:extension>
+</annotation>
+<listOfReactants>
+<speciesReference metaid="metaid_183" species="PHOS">
+<annotation>
+<celldesigner:extension>
+<celldesigner:alias>sa17</celldesigner:alias>
+</celldesigner:extension>
+</annotation>
+</speciesReference>
+<speciesReference metaid="metaid_184" species="TRIO">
+<annotation>
+<celldesigner:extension>
+<celldesigner:alias>sa21</celldesigner:alias>
+</celldesigner:extension>
+</annotation>
+</speciesReference>
+<speciesReference metaid="metaid_185" species="NAD">
+<annotation>
+<celldesigner:extension>
+<celldesigner:alias>sa12</celldesigner:alias>
+</celldesigner:extension>
+</annotation>
+</speciesReference>
+</listOfReactants>
+<listOfProducts>
+<speciesReference metaid="metaid_186" species="BPG">
+<annotation>
+<celldesigner:extension>
+<celldesigner:alias>sa2</celldesigner:alias>
+</celldesigner:extension>
+</annotation>
+</speciesReference>
+<speciesReference metaid="metaid_187" species="NADH">
+<annotation>
+<celldesigner:extension>
+<celldesigner:alias>sa13</celldesigner:alias>
+</celldesigner:extension>
+</annotation>
+</speciesReference>
+</listOfProducts>
+<kineticLaw metaid="CDMT00016">
+<math xmlns="http://www.w3.org/1998/Math/MathML">
+<apply>
+<divide/>
+<apply>
+<plus/>
+<apply>
+<minus/>
+<apply>
+<divide/>
+<apply>
+<times/>
+<ci> VmGAPDHr </ci>
+<ci> BPG </ci>
+<ci> NADH </ci>
+</apply>
+<apply>
+<times/>
+<ci> KmGAPDHBPG </ci>
+<ci> KmGAPDHNADH </ci>
+</apply>
+</apply>
+</apply>
+<apply>
+<divide/>
+<apply>
+<times/>
+<ci> KeqTPI </ci>
+<ci> VmGAPDHf </ci>
+<apply>
+<minus/>
+<ci> NADt </ci>
+<ci> NADH </ci>
+</apply>
+<ci> PHOS </ci>
+<ci> TRIO </ci>
+</apply>
+<apply>
+<times/>
+<apply>
+<plus/>
+<cn type="integer"> 1 </cn>
+<ci> KeqTPI </ci>
+</apply>
+<ci> KmGAPDHGAP </ci>
+<ci> KmGAPDHNAD </ci>
+</apply>
+</apply>
+</apply>
+<apply>
+<times/>
+<ci> compartment </ci>
+<apply>
+<plus/>
+<cn type="integer"> 1 </cn>
+<apply>
+<divide/>
+<apply>
+<minus/>
+<ci> NADt </ci>
+<ci> NADH </ci>
+</apply>
+<ci> KmGAPDHNAD </ci>
+</apply>
+<apply>
+<divide/>
+<ci> NADH </ci>
+<ci> KmGAPDHNADH </ci>
+</apply>
+</apply>
+<apply>
+<plus/>
+<cn type="integer"> 1 </cn>
+<ci> PHOS </ci>
+</apply>
+<apply>
+<plus/>
+<cn type="integer"> 1 </cn>
+<apply>
+<divide/>
+<ci> BPG </ci>
+<ci> KmGAPDHBPG </ci>
+</apply>
+<apply>
+<divide/>
+<apply>
+<times/>
+<ci> KeqTPI </ci>
+<ci> TRIO </ci>
+</apply>
+<apply>
+<times/>
+<apply>
+<plus/>
+<cn type="integer"> 1 </cn>
+<ci> KeqTPI </ci>
+</apply>
+<ci> KmGAPDHGAP </ci>
+</apply>
+</apply>
+</apply>
+</apply>
+</apply>
+</math>
+</kineticLaw>
+</reaction>
+<reaction metaid="metaid_192" id="v8" name="v8" fast="false">
+<annotation>
+<celldesigner:extension>
+<celldesigner:name>v8</celldesigner:name>
+<celldesigner:reactionType>STATE_TRANSITION</celldesigner:reactionType>
+<celldesigner:baseReactants>
+<celldesigner:baseReactant species="BPG" alias="sa2">
+<celldesigner:linkAnchor position="S"/>
+</celldesigner:baseReactant>
+</celldesigner:baseReactants>
+<celldesigner:baseProducts>
+<celldesigner:baseProduct species="P3G" alias="sa15">
+<celldesigner:linkAnchor position="NNW"/>
+</celldesigner:baseProduct>
+</celldesigner:baseProducts>
+<celldesigner:listOfProductLinks>
+<celldesigner:productLink product="Prb" alias="sa19" targetLineIndex="-1,1">
+<celldesigner:linkAnchor position="SSE"/>
+<celldesigner:connectScheme connectPolicy="direct">
+<celldesigner:listOfLineDirection>
+<celldesigner:lineDirection index="0" value="unknown"/>
+</celldesigner:listOfLineDirection>
+</celldesigner:connectScheme>
+<celldesigner:line width="1.0" color="ff000000" type="Straight"/>
+</celldesigner:productLink>
+</celldesigner:listOfProductLinks>
+<celldesigner:connectScheme connectPolicy="direct" rectangleIndex="1">
+<celldesigner:listOfLineDirection>
+<celldesigner:lineDirection index="0" value="unknown"/>
+<celldesigner:lineDirection index="1" value="unknown"/>
+<celldesigner:lineDirection index="2" value="unknown"/>
+</celldesigner:listOfLineDirection>
+</celldesigner:connectScheme>
+<celldesigner:editPoints>0.8761809530377218,-0.0035514792083302105 0.8761809530377218,-0.0035514792083302105</celldesigner:editPoints>
+<celldesigner:line width="1.0" color="ff000000"/>
+</celldesigner:extension>
+</annotation>
+<listOfReactants>
+<speciesReference metaid="metaid_189" species="BPG">
+<annotation>
+<celldesigner:extension>
+<celldesigner:alias>sa2</celldesigner:alias>
+</celldesigner:extension>
+</annotation>
+</speciesReference>
+</listOfReactants>
+<listOfProducts>
+<speciesReference metaid="metaid_190" species="P3G">
+<annotation>
+<celldesigner:extension>
+<celldesigner:alias>sa15</celldesigner:alias>
+</celldesigner:extension>
+</annotation>
+</speciesReference>
+<speciesReference metaid="metaid_191" species="Prb">
+<annotation>
+<celldesigner:extension>
+<celldesigner:alias>sa19</celldesigner:alias>
+</celldesigner:extension>
+</annotation>
+</speciesReference>
+</listOfProducts>
+<kineticLaw metaid="CDMT00017">
+<math xmlns="http://www.w3.org/1998/Math/MathML">
+<apply>
+<divide/>
+<apply>
+<times/>
+<ci> VmPGK </ci>
+<apply>
+<minus/>
+<apply>
+<divide/>
+<apply>
+<times/>
+<ci> KeqPGK </ci>
+<ci> BPG </ci>
+<apply>
+<minus/>
+<ci> SUMAXP </ci>
+<apply>
+<power/>
+<apply>
+<minus/>
+<apply>
+<plus/>
+<apply>
+<minus/>
+<apply>
+<power/>
+<ci> SUMAXP </ci>
+<cn type="integer"> 2 </cn>
+</apply>
+<apply>
+<times/>
+<cn type="integer"> 2 </cn>
+<ci> SUMAXP </ci>
+<ci> Prb </ci>
+</apply>
+</apply>
+<apply>
+<times/>
+<cn type="integer"> 8 </cn>
+<ci> KeqAK </ci>
+<ci> SUMAXP </ci>
+<ci> Prb </ci>
+</apply>
+<apply>
+<power/>
+<ci> Prb </ci>
+<cn type="integer"> 2 </cn>
+</apply>
+</apply>
+<apply>
+<times/>
+<cn type="integer"> 4 </cn>
+<ci> KeqAK </ci>
+<apply>
+<power/>
+<ci> Prb </ci>
+<cn type="integer"> 2 </cn>
+</apply>
+</apply>
+</apply>
+<cn> 0.5 </cn>
+</apply>
+</apply>
+</apply>
+<apply>
+<minus/>
+<cn type="integer"> 1 </cn>
+<apply>
+<times/>
+<cn type="integer"> 4 </cn>
+<ci> KeqAK </ci>
+</apply>
+</apply>
+</apply>
+<apply>
+<divide/>
+<apply>
+<times/>
+<ci> P3G </ci>
+<apply>
+<plus/>
+<apply>
+<minus/>
+<apply>
+<plus/>
+<apply>
+<minus/>
+<ci> SUMAXP </ci>
+</apply>
+<ci> Prb </ci>
+</apply>
+<apply>
+<times/>
+<cn type="integer"> 4 </cn>
+<ci> KeqAK </ci>
+<ci> Prb </ci>
+</apply>
+</apply>
+<apply>
+<power/>
+<apply>
+<minus/>
+<apply>
+<plus/>
+<apply>
+<minus/>
+<apply>
+<power/>
+<ci> SUMAXP </ci>
+<cn type="integer"> 2 </cn>
+</apply>
+<apply>
+<times/>
+<cn type="integer"> 2 </cn>
+<ci> SUMAXP </ci>
+<ci> Prb </ci>
+</apply>
+</apply>
+<apply>
+<times/>
+<cn type="integer"> 8 </cn>
+<ci> KeqAK </ci>
+<ci> SUMAXP </ci>
+<ci> Prb </ci>
+</apply>
+<apply>
+<power/>
+<ci> Prb </ci>
+<cn type="integer"> 2 </cn>
+</apply>
+</apply>
+<apply>
+<times/>
+<cn type="integer"> 4 </cn>
+<ci> KeqAK </ci>
+<apply>
+<power/>
+<ci> Prb </ci>
+<cn type="integer"> 2 </cn>
+</apply>
+</apply>
+</apply>
+<cn> 0.5 </cn>
+</apply>
+</apply>
+</apply>
+<apply>
+<minus/>
+<cn type="integer"> 2 </cn>
+<apply>
+<times/>
+<cn type="integer"> 8 </cn>
+<ci> KeqAK </ci>
+</apply>
+</apply>
+</apply>
+</apply>
+</apply>
+<apply>
+<times/>
+<ci> compartment </ci>
+<ci> KmPGKATP </ci>
+<ci> KmPGKP3G </ci>
+<apply>
+<plus/>
+<cn type="integer"> 1 </cn>
+<apply>
+<divide/>
+<ci> BPG </ci>
+<ci> KmPGKBPG </ci>
+</apply>
+<apply>
+<divide/>
+<ci> P3G </ci>
+<ci> KmPGKP3G </ci>
+</apply>
+</apply>
+<apply>
+<plus/>
+<cn type="integer"> 1 </cn>
+<apply>
+<divide/>
+<apply>
+<minus/>
+<ci> SUMAXP </ci>
+<apply>
+<power/>
+<apply>
+<minus/>
+<apply>
+<plus/>
+<apply>
+<minus/>
+<apply>
+<power/>
+<ci> SUMAXP </ci>
+<cn type="integer"> 2 </cn>
+</apply>
+<apply>
+<times/>
+<cn type="integer"> 2 </cn>
+<ci> SUMAXP </ci>
+<ci> Prb </ci>
+</apply>
+</apply>
+<apply>
+<times/>
+<cn type="integer"> 8 </cn>
+<ci> KeqAK </ci>
+<ci> SUMAXP </ci>
+<ci> Prb </ci>
+</apply>
+<apply>
+<power/>
+<ci> Prb </ci>
+<cn type="integer"> 2 </cn>
+</apply>
+</apply>
+<apply>
+<times/>
+<cn type="integer"> 4 </cn>
+<ci> KeqAK </ci>
+<apply>
+<power/>
+<ci> Prb </ci>
+<cn type="integer"> 2 </cn>
+</apply>
+</apply>
+</apply>
+<cn> 0.5 </cn>
+</apply>
+</apply>
+<apply>
+<times/>
+<apply>
+<minus/>
+<cn type="integer"> 1 </cn>
+<apply>
+<times/>
+<cn type="integer"> 4 </cn>
+<ci> KeqAK </ci>
+</apply>
+</apply>
+<ci> KmPGKADP </ci>
+</apply>
+</apply>
+<apply>
+<divide/>
+<apply>
+<plus/>
+<apply>
+<minus/>
+<apply>
+<plus/>
+<apply>
+<minus/>
+<ci> SUMAXP </ci>
+</apply>
+<ci> Prb </ci>
+</apply>
+<apply>
+<times/>
+<cn type="integer"> 4 </cn>
+<ci> KeqAK </ci>
+<ci> Prb </ci>
+</apply>
+</apply>
+<apply>
+<power/>
+<apply>
+<minus/>
+<apply>
+<plus/>
+<apply>
+<minus/>
+<apply>
+<power/>
+<ci> SUMAXP </ci>
+<cn type="integer"> 2 </cn>
+</apply>
+<apply>
+<times/>
+<cn type="integer"> 2 </cn>
+<ci> SUMAXP </ci>
+<ci> Prb </ci>
+</apply>
+</apply>
+<apply>
+<times/>
+<cn type="integer"> 8 </cn>
+<ci> KeqAK </ci>
+<ci> SUMAXP </ci>
+<ci> Prb </ci>
+</apply>
+<apply>
+<power/>
+<ci> Prb </ci>
+<cn type="integer"> 2 </cn>
+</apply>
+</apply>
+<apply>
+<times/>
+<cn type="integer"> 4 </cn>
+<ci> KeqAK </ci>
+<apply>
+<power/>
+<ci> Prb </ci>
+<cn type="integer"> 2 </cn>
+</apply>
+</apply>
+</apply>
+<cn> 0.5 </cn>
+</apply>
+</apply>
+<apply>
+<times/>
+<apply>
+<minus/>
+<cn type="integer"> 2 </cn>
+<apply>
+<times/>
+<cn type="integer"> 8 </cn>
+<ci> KeqAK </ci>
+</apply>
+</apply>
+<ci> KmPGKATP </ci>
+</apply>
+</apply>
+</apply>
+</apply>
+</apply>
+</math>
+</kineticLaw>
+</reaction>
+<reaction metaid="metaid_195" id="v9" name="v9" fast="false">
+<annotation>
+<celldesigner:extension>
+<celldesigner:name>v9</celldesigner:name>
+<celldesigner:reactionType>STATE_TRANSITION</celldesigner:reactionType>
+<celldesigner:baseReactants>
+<celldesigner:baseReactant species="P3G" alias="sa15">
+<celldesigner:linkAnchor position="NE"/>
+</celldesigner:baseReactant>
+</celldesigner:baseReactants>
+<celldesigner:baseProducts>
+<celldesigner:baseProduct species="P2G" alias="sa14">
+<celldesigner:linkAnchor position="WNW"/>
+</celldesigner:baseProduct>
+</celldesigner:baseProducts>
+<celldesigner:connectScheme connectPolicy="direct" rectangleIndex="1">
+<celldesigner:listOfLineDirection>
+<celldesigner:lineDirection index="0" value="unknown"/>
+<celldesigner:lineDirection index="1" value="unknown"/>
+<celldesigner:lineDirection index="2" value="unknown"/>
+</celldesigner:listOfLineDirection>
+</celldesigner:connectScheme>
+<celldesigner:editPoints>0.8088367899008109,-0.6717763751127173 0.8088367899008109,-0.6717763751127173</celldesigner:editPoints>
+<celldesigner:line width="1.0" color="ff000000"/>
+</celldesigner:extension>
+</annotation>
+<listOfReactants>
+<speciesReference metaid="metaid_193" species="P3G">
+<annotation>
+<celldesigner:extension>
+<celldesigner:alias>sa15</celldesigner:alias>
+</celldesigner:extension>
+</annotation>
+</speciesReference>
+</listOfReactants>
+<listOfProducts>
+<speciesReference metaid="metaid_194" species="P2G">
+<annotation>
+<celldesigner:extension>
+<celldesigner:alias>sa14</celldesigner:alias>
+</celldesigner:extension>
+</annotation>
+</speciesReference>
+</listOfProducts>
+<kineticLaw metaid="CDMT00018">
+<math xmlns="http://www.w3.org/1998/Math/MathML">
+<apply>
+<divide/>
+<apply>
+<times/>
+<ci> VmPGM </ci>
+<apply>
+<plus/>
+<apply>
+<minus/>
+<apply>
+<divide/>
+<ci> P2G </ci>
+<ci> KeqPGM </ci>
+</apply>
+</apply>
+<ci> P3G </ci>
+</apply>
+</apply>
+<apply>
+<times/>
+<ci> compartment </ci>
+<ci> KmPGMP3G </ci>
+<apply>
+<plus/>
+<cn type="integer"> 1 </cn>
+<apply>
+<divide/>
+<ci> P2G </ci>
+<ci> KmPGMP2G </ci>
+</apply>
+<apply>
+<divide/>
+<ci> P3G </ci>
+<ci> KmPGMP3G </ci>
+</apply>
+</apply>
+</apply>
+</apply>
+</math>
+</kineticLaw>
+</reaction>
+</listOfReactions>
+</model>
+</sbml>
