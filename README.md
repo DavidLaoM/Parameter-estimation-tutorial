@@ -2,6 +2,9 @@
 Parameter estimation sample codes for Enolase, van Heerden 2014 kinetics.
 2019/02/26
 David Lao-Martil
+
+Just a simple parameter estimation tutorial used for a tutorial. It uses the matlab optimization toolbox (MATLAB 9.3 or higher).
+
 The files contain a test dataset and the codes runned during the tutorial
   testdata    data required for all the files
   cheats1     simple lsqnonlin run
